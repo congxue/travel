@@ -1,6 +1,12 @@
 * {
 	margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+html{
+    max-width: 768px;
+    margin: 0 auto;
+    font-size: 100px;
 }
 
 body {
@@ -12,20 +18,17 @@ body {
 }
 
 a {
-	color: #2d374b;
-	text-decoration: none;
+    color:#333;
+    text-decoration: none!important;
 }
-
-a:hover {
-	color: #cd0200;
-	text-decoration: underline;
-}
-
 
 li {
-	list-style: none;
+    list-style: none;
 }
 
+em {
+    font-style: normal;
+}
 img {
 	border: 0;
 	vertical-align: middle;
@@ -40,25 +43,26 @@ p {
 	word-wrap: break-word;
 } 
 
-input{
-    -webkit-appearance: none;
+input,textarea{
     border: 0;
+    outline: none;
+    -webkit-appearance: none;
 }
 
 ::-webkit-input-placeholder {
-    font-size: .14rem;
-    line-height: .16rem;
+    font-size: .13rem;
+    line-height: .305rem;
     color: #fff;
 }
 
 ::-moz-placeholder {
-    font-size: .14rem;
-    line-height: .16rem;
+    font-size: .13rem;
+    line-height: .305rem;
     color: #fff;
 }
 
 :-ms-input-placeholder {
-    font-size: .14rem;
-    line-height: .16rem;
+    font-size: .13rem;
+    line-height: .305rem;
     color: #fff;
 }  

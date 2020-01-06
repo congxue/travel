@@ -4,8 +4,15 @@
         resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
         recalc = function() {
             var clientWidth = docEl.clientWidth;
-            if (!clientWidth) return;
-            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+            if( clientWidth < 320 ){
+                clientWidth = 320
+            }else if( clientWidth > 768 ){
+                clientWidth = 768
+            }else if( !clientWidth ){
+                return;
+            }
+            docEl.style.fontSize = 100 * (clientWidth / 375) + 'px';
+            // alert($('a').css('fontSize'))
         };
     if (!doc.addEventListener) return;
     win.addEventListener(resizeEvt, recalc, false);
