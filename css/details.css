@@ -1,0 +1,219 @@
+body {
+  padding-top: 0.4rem;
+  background-color: #f6f6f6;
+}
+.banner {
+  height: 1.84rem;
+}
+.banner .swiper-slide {
+  border-radius: 0;
+}
+.banner .swiper-slide img {
+  height: 100%;
+  width: auto;
+}
+.banner .swiper-pagination {
+  bottom: 0.27rem !important;
+  text-align: right;
+  padding-right: 0.2rem;
+}
+.con {
+  position: relative;
+  top: -0.2rem;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+  z-index: 1;
+  overflow: hidden;
+}
+.details-info {
+  padding: 0.04rem 0.1rem;
+  margin-bottom: 0.1rem;
+  background-color: #fff;
+}
+.details-info > div {
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+  height: 0.42rem;
+  line-height: 0.42rem;
+}
+.details-info > div:last-child {
+  border: 0;
+}
+.details-info .info-title h2 {
+  font-size: 0.16rem;
+  color: #1f1f1f;
+  float: left;
+  padding-left: 0.04rem;
+}
+.details-info .info-title span {
+  float: right;
+  font-size: 18px;
+  color: #FF5114;
+}
+.details-info .info-title span b {
+  font-size: 0.12rem;
+}
+.details-info .info-price span {
+  float: left;
+}
+.details-info .info-price .parice1 {
+  font-size: 0.12rem;
+  font-weight: bold;
+  color: #FF5114;
+}
+.details-info .info-price .parice2 {
+  font-size: 0.16rem;
+  font-weight: bold;
+  color: #FF5114;
+}
+.details-info .info-price .parice3 {
+  font-size: 0.12rem;
+  color: #777;
+  margin-left: 0.02rem;
+  margin-right: 0.06rem;
+}
+.details-info .info-price .parice4 {
+  font-size: 0.12rem;
+  color: #999;
+  text-decoration: line-through;
+}
+.details-info .info-price .parice5 {
+  float: right;
+  background-color: #FFF8E7;
+  border: 1px solid #FFBC19;
+  line-height: 0.2rem;
+  padding: 0 0.04rem;
+  color: #FFBC19;
+  margin-top: 0.1rem;
+}
+.details-info .info-address p,
+.details-info .info-comment p {
+  font-size: 0.14rem;
+  color: #1f1f1f;
+  float: left;
+  position: relative;
+  padding-left: 0.16rem;
+}
+.details-info .info-address p::before,
+.details-info .info-comment p::before {
+  content: "";
+  width: 0.16rem;
+  height: 0.16rem;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  top: 0.13rem;
+}
+.details-info .info-address a,
+.details-info .info-comment a {
+  float: right;
+  font-size: 0.12rem;
+  color: #999;
+  position: relative;
+  padding-right: 0.1rem;
+}
+.details-info .info-address a::after,
+.details-info .info-comment a::after {
+  content: "";
+  width: 0.24rem;
+  height: 0.24rem;
+  background-image: url(../img/gengduo@2x.png);
+  background-size: cover;
+  display: block;
+  position: absolute;
+  right: -0.1rem;
+  top: 0.09rem;
+}
+.details-info .info-address p::before {
+  background-image: url(../img/dingweiweizhi@2x.png);
+}
+.details-info .info-comment p::before {
+  background-image: url(../img/pinglun@2x.png);
+}
+.details-tab {
+  background-color: #fff;
+  height: 0.57rem;
+  overflow: hidden;
+  padding-bottom: 0.15rem;
+}
+.details-tab li {
+  float: left;
+  width: 33.3%;
+  line-height: 0.4rem;
+  height: 0.4rem;
+  font-size: 0.12rem;
+  color: #1f1f1f;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+.details-tab li::before,
+.details-tab li::after {
+  display: none;
+}
+.details-tab li::before {
+  content: "";
+  position: absolute;
+  width: 0.22rem;
+  height: 0.02rem;
+  background: #0084FF;
+  left: 50%;
+  margin-left: -0.11rem;
+  bottom: 0;
+}
+.details-tab li::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px 6px 10px 6px;
+  border-style: solid;
+  border-color: transparent transparent #f6f6f6;
+  left: 0.56rem;
+  bottom: -0.2rem;
+}
+.details-tab li.act::before,
+.details-tab li.act::after {
+  display: block;
+}
+.binding {
+  width: 100%;
+  height: 0.48rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0 0 0.2rem rgba(85, 85, 85, 0.3);
+  z-index: 10;
+}
+.binding .collect {
+  float: left;
+  font-size: 0.14rem;
+  text-align: center;
+  color: #A2A1A1;
+  width: 25%;
+  background-color: #fff;
+  padding-top: 0.03rem;
+  transition: all 0.1s;
+}
+.binding .collect span {
+  width: 0.24rem;
+  height: 0.24rem;
+  background-image: url(../img/shoucang_default@2x.png);
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
+}
+.binding .collect.act {
+  color: #333;
+}
+.binding .collect.act span {
+  background-image: url(../img/shoucangxuanzhong_selected@2x.png);
+}
+.binding a {
+  float: right;
+  line-height: 0.48rem;
+  background-color: #0057FF;
+  text-align: center;
+  color: #fff;
+  width: 75%;
+}

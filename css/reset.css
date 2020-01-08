@@ -50,19 +50,19 @@ input,textarea{
 }
 
 ::-webkit-input-placeholder {
-    font-size: .13rem;
-    line-height: .305rem;
-    color: #fff;
+    font-size: .14rem;
+    line-height: .16rem;
+    color:#bababa;
 }
 
 ::-moz-placeholder {
-    font-size: .13rem;
-    line-height: .305rem;
-    color: #fff;
+    font-size: .16rem;
+    line-height: .16rem;
+    color:#bababa;
 }
 
 :-ms-input-placeholder {
-    font-size: .13rem;
-    line-height: .305rem;
-    color: #fff;
+    font-size: .16rem;
+    line-height: .16rem;
+    color:#bababa;
 }  

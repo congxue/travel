@@ -1,0 +1,28 @@
+body {
+  background-color: #f6f6f6;
+  padding-top: 0.4rem;
+}
+.title {
+  background-color: #0057FF;
+}
+.title .back {
+  background-image: url(../img/back_bai@2x.png);
+}
+.title .h1 {
+  color: #fff;
+}
+.title .dingwei {
+  color: #fff;
+}
+.home-search {
+  height: 0.42rem;
+  border-bottom-left-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+  background-color: #0057FF;
+}
+.home-search .input {
+  background-color: #fff;
+}
+.home-search a {
+  color: #333;
+}

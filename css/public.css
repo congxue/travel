@@ -1,59 +1,87 @@
-/* 搜索 */
-.search {
-  height: 0.305rem;
-  margin-bottom: 0.1rem;
+.con {
+  padding-bottom: 0.7rem;
 }
-.search .input {
-  width: 84%;
-  height: 0.3rem;
-  background-color: #669AFF;
+/* 底部导航 */
+#bar {
+  position: fixed;
+  width: 100%;
+  height: 0.5rem;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.32);
+  font-size: 0.1rem;
+  text-align: center;
+  background-color: #fff;
+  z-index: 10;
+}
+#bar a {
+  color: #bbb;
+  display: block;
+  height: 0.5rem;
+  padding-top: 0.07rem;
+}
+#bar li {
+  float: left;
+  width: 25%;
+}
+#bar li.act em {
+  color: #333333;
+  font-weight: bold;
+}
+#bar span,
+#bar em {
+  display: block;
+}
+#bar span {
+  width: 0.23rem;
+  height: 0.24rem;
   margin: 0 auto;
-  border-radius: 0.15rem;
-  text-align: center;
-  position: relative;
+  margin-bottom: 0.015rem;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.search p {
-  background-color: rgba(0, 0, 0, 0);
-  font-size: 0.12rem;
-  line-height: 0.3rem;
-  display: inline-block;
-  width: 42%;
-  text-align: center;
-  color: #fff;
-  vertical-align: middle;
+#bar em {
+  line-height: 0.175rem;
 }
-.search .icon {
-  width: 0.15rem;
-  height: 0.15rem;
-  display: inline-block;
+.to-home span {
+  background-image: url(../img/home_hui@2x.png);
+}
+.to-home.act span {
+  background-image: url(../img/home@2x.png);
+}
+.to-service span {
+  background-image: url(../img/service_hui@2x.png);
+}
+.to-service.act {
+  spanbackground-image: url(../img/service@2x.png);
+}
+.to-order span {
+  background-image: url(../img/dingdan_hui@2x.png);
+}
+.to-order.act {
+  spanbackground-image: url(../img/dingdan@2x.png);
+}
+.to-me span {
+  background-image: url(../img/account_hui@2x.png);
+}
+.to-me.act span {
+  background-image: url(../img/account@2x.png);
 }
 /* banner */
-.banner {
-  margin-bottom: 0.2rem;
-}
-.banner .swiper-wrapper {
-  height: 1.485rem;
-}
 .banner .swiper-slide {
+  width: 3.2rem;
   background-color: #F6F6F6;
   border-radius: 0.1rem;
-  width: 2.89rem;
-  height: 89%;
-  position: relative;
-  top: 5.5%;
   background-image: url(../img/zhanweitu1@2x.png);
+  background-position: center;
   background-size: contain;
+  background-color: #f6f6f6;
   overflow: hidden;
   transition: all 0.2s;
 }
 .banner .swiper-slide img {
   display: block;
   width: 100%;
-}
-.banner .swiper-slide-active {
-  width: 3.2rem;
-  height: 100%;
-  top: 0;
 }
 .banner .swiper-pagination {
   bottom: 0.06rem !important;
@@ -71,66 +99,7 @@
   border-radius: 0.03rem;
   opacity: 1;
 }
-/* 按钮区 */
-.iconlist {
-  margin-bottom: 0.2rem;
-}
-.iconlist ul {
-  display: flex;
-  padding: 0 0.24rem;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 0.155rem;
-}
-.iconlist li {
-  text-align: center;
-  font-size: 0.13rem;
-}
-.iconlist a {
-  display: block;
-}
-.iconlist img {
-  width: 100%;
-  display: block;
-  width: 0.48rem;
-  height: 0.5rem;
-  margin: 0 auto;
-  margin-bottom: 0.05rem;
-}
-/* 卡片区 */
-.con {
-  padding-bottom: 0.7rem;
-}
-.h2 {
-  font-size: 0.18rem;
-  line-height: 0.18rem;
-  color: #333;
-  position: relative;
-  padding-left: 0.24rem;
-  font-weight: bold;
-  margin-bottom: 0.14rem;
-}
-.h2::before {
-  content: '';
-  width: 0.05rem;
-  height: 0.12rem;
-  position: absolute;
-  left: 0.12rem;
-  top: 50%;
-  margin-top: -0.06rem;
-  background: #0057FF;
-  border-radius: 0.0225rem;
-}
-.cardarea ol {
-  overflow: hidden;
-  padding: 0 0.07rem;
-}
-.cardarea ol li {
-  float: left;
-  margin: 0 0.04rem;
-}
+/* 卡片信息 */
 .card {
   width: 1.72rem;
 }
@@ -139,7 +108,6 @@
 }
 .card .pic {
   border-radius: 0.1rem;
-  width: 1.72rem;
   height: 1.72rem;
   background: url('../img/zhanweitu2@2x.png');
   background-size: cover;
@@ -148,6 +116,9 @@
 .card .pic img {
   display: block;
   width: 100%;
+}
+.card a {
+  display: block;
 }
 .card .label {
   width: 0.575rem;
@@ -215,86 +186,75 @@
   font-size: 0.1rem;
   color: #999;
 }
-.cardtab {
-  margin-bottom: 0.2rem;
+/* 搜索 */
+.home-search {
+  height: 0.305rem;
+  margin-bottom: 0.1rem;
 }
-.cardtab .swiper-slide {
-  width: 0.53rem;
-  border-radius: 0.13rem;
-  background: #fafafa;
-  font-size: 12px;
-  color: #989898;
-  text-align: center;
-  line-height: 0.26rem;
-}
-.cardtab .swiper-slide.act {
-  background: #CDDDFF;
-  color: #0057FF;
-  transition: all 0.2s;
-}
-/* 底部导航 */
-#bar {
-  position: fixed;
-  width: 100%;
-  height: 0.5rem;
-  left: 0;
-  bottom: 0;
-  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.32);
-  font-size: 0.1rem;
-  text-align: center;
-  background-color: #fff;
-  z-index: 1;
-}
-#bar a {
-  color: #bbb;
-  display: block;
-  height: 0.5rem;
-  padding-top: 0.07rem;
-}
-#bar li {
-  float: left;
-  width: 25%;
-}
-#bar li.act em {
-  color: #333333;
-  font-weight: bold;
-}
-#bar span,
-#bar em {
-  display: block;
-}
-#bar span {
-  width: 0.23rem;
-  height: 0.24rem;
+.home-search .input {
+  width: 84%;
+  height: 0.3rem;
+  background-color: #669AFF;
   margin: 0 auto;
-  margin-bottom: 0.015rem;
-  background-size: contain;
-  background-repeat: no-repeat;
+  border-radius: 0.15rem;
+  text-align: center;
+  position: relative;
 }
-#bar em {
-  line-height: 0.175rem;
+.home-search a {
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 0.12rem;
+  line-height: 0.3rem;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+  position: relative;
+  top: 0.01rem;
 }
-.to-home span {
-  background-image: url(../img/home_hui@2x.png);
+.home-search .icon {
+  width: 0.15rem;
+  height: 0.15rem;
+  display: inline-block;
 }
-.to-home.act span {
-  background-image: url(../img/home@2x.png);
+/* title */
+.title {
+  width: 100%;
+  height: 0.4rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  background-color: #fff;
 }
-.to-service span {
-  background-image: url(../img/service_hui@2x.png);
+.title .back {
+  width: 0.24rem;
+  height: 0.24rem;
+  top: 50%;
+  margin-top: -0.12rem;
+  background-size: cover;
+  position: absolute;
+  background-image: url(../img/fanhui@2x.png);
+  left: 0.05rem;
 }
-.to-service.act {
-  spanbackground-image: url(../img/service@2x.png);
+.title .dingwei {
+  right: 0.08rem;
+  top: 0;
+  position: absolute;
+  line-height: 0.4rem;
 }
-.to-order span {
-  background-image: url(../img/dingdan_hui@2x.png);
+.title .dingwei::before {
+  content: "";
+  width: 0.24rem;
+  height: 0.24rem;
+  position: absolute;
+  left: -0.2rem;
+  top: 0.075rem;
+  background-image: url(../img/ding_bai.png);
+  background-size: cover;
 }
-.to-order.act {
-  spanbackground-image: url(../img/dingdan@2x.png);
-}
-.to-me span {
-  background-image: url(../img/account_hui@2x.png);
-}
-.to-me.act span {
-  background-image: url(../img/account@2x.png);
+.title .h1 {
+  line-height: 0.4rem;
+  text-align: center;
+  font-size: 0.16rem;
+  color: #333;
 }

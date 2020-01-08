@@ -4,3 +4,104 @@
     background-size: contain;
 }
 
+/* 按钮区 */
+.iconlist{
+    margin-bottom: .2rem;
+    margin-top: .2rem;
+    ul{
+        display:flex;
+        padding: 0 .24rem;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        align-items:flex-start; 
+        margin-bottom: .155rem;
+    }
+    li{
+        text-align: center;
+        font-size: .13rem;
+    }
+    a{
+        display: block;
+    }
+    img{
+        width: 100%;
+        display: block;
+        width: .48rem;
+        height: .5rem;
+        margin: 0 auto;
+        margin-bottom: .05rem;
+    }
+}
+
+.banner{
+    .swiper-slide{
+        width: 2.89rem;
+        height: 89%;
+        position: relative;
+        top:5.5%;
+    }
+    .swiper-slide-active{
+        width: 3.2rem;
+        height: 100%;
+        top:0;
+    }
+    .swiper-wrapper{
+        height: 1.485rem;    
+    }
+
+}
+
+/* 卡片区 */
+.h2{
+    font-size: .18rem;
+    line-height: .18rem;
+    color: #333;
+    position: relative;
+    padding-left: .24rem;
+    font-weight: bold;
+    margin-bottom: .14rem;
+    &::before{
+        content: '';
+        width: .05rem;
+        height: .12rem;
+        position: absolute;
+        left: .12rem;
+        top:50%;
+        margin-top: -0.06rem;
+        border-radius: .0225rem;
+        background: #0057FF;
+        border-radius: .0225rem;
+    }
+}
+.cardarea{
+    ol{
+        overflow: hidden;
+        padding: 0 .07rem;
+        li{
+            float: left;
+            margin: 0 .04rem;
+        }
+    }
+}
+
+.cardtab{
+    margin-bottom: .2rem;
+    .swiper-slide{
+        width: .53rem;
+        border-radius: .13rem;
+        background: #fafafa;
+        font-size: 12px;
+        color: #989898;
+        text-align: center;
+        line-height: .26rem;
+        &.act{
+            background: #CDDDFF;
+            color: #0057FF;
+            transition: all 0.2s;
+        }
+    }
+
+}
+
+
