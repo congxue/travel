@@ -5,21 +5,18 @@
 }
 /* 按钮区 */
 .iconlist {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.16rem;
   margin-top: 0.2rem;
 }
 .iconlist ul {
-  display: flex;
-  padding: 0 0.24rem;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 0.155rem;
+  overflow: hidden;
 }
 .iconlist li {
   text-align: center;
   font-size: 0.13rem;
+  width: 25%;
+  float: left;
+  margin-bottom: 0.1rem;
 }
 .iconlist a {
   display: block;
