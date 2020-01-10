@@ -1,0 +1,75 @@
+body {
+  padding-top: 0.5rem;
+  background-color: #f6f6f6;
+}
+.form-item {
+  height: 0.56rem;
+  line-height: 0.56rem;
+  padding: 0 0.18rem;
+  position: relative;
+  padding-left: 30%;
+  padding-right: 0.14rem;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+.form-item label {
+  font-size: 0.14rem;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-left: 0.18rem;
+}
+.form-item input {
+  text-align: right;
+  width: 100%;
+  font-size: 0.14rem;
+  color: #333;
+}
+.form-item.form-name {
+  margin-top: 0.1rem;
+}
+form {
+  margin-bottom: 0.3rem;
+}
+.bandlist a {
+  display: block;
+  width: 3.04rem;
+  line-height: 0.46rem;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.05rem;
+  margin: 0 auto;
+  margin-bottom: 0.1rem;
+  background-color: #FF6000;
+  font-size: 0.16rem;
+}
+.bandlist .submit {
+  background-color: #0057FF;
+}
+.sex {
+  line-height: 0.24rem;
+  color: #bababa;
+  font-size: 0.16rem;
+  position: relative;
+  padding-left: 0.24rem;
+  float: right;
+  margin-top: 0.16rem;
+}
+.sex::before {
+  width: 0.24rem;
+  height: 0.24rem;
+  background-image: url(../img/sex.png);
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '';
+}
+.sex.act {
+  color: #333;
+  transition: all 0.1s;
+}
+.sex.act::before {
+  background-image: url(../img/sex_act.png);
+}

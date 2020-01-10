@@ -1,7 +1,7 @@
 .top {
   background: url(../img/lansetoubu@2x.png) no-repeat top;
-  padding-top: 0.1rem;
   background-size: contain;
+  padding-top: 0.5rem;
 }
 /* 按钮区 */
 .iconlist {
@@ -63,14 +63,6 @@
   margin-top: -0.06rem;
   background: #0057FF;
   border-radius: 0.0225rem;
-}
-.cardarea ol {
-  overflow: hidden;
-  padding: 0 0.07rem;
-}
-.cardarea ol li {
-  float: left;
-  margin: 0 0.04rem;
 }
 .cardtab {
   margin-bottom: 0.2rem;

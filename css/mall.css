@@ -1,6 +1,6 @@
 body {
   background-color: #f6f6f6;
-  padding-top: 0.4rem;
+  padding-top: 0.98rem;
 }
 .title {
   background-color: #0057FF;
@@ -15,10 +15,10 @@ body {
   color: #fff;
 }
 .home-search {
-  height: 0.42rem;
   border-bottom-left-radius: 0.2rem;
   border-bottom-right-radius: 0.2rem;
   background-color: #0057FF;
+  top: 0.4rem;
 }
 .home-search .input {
   background-color: #fff;

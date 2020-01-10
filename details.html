@@ -15,6 +15,7 @@
         <div class="title">
             <a class="back"></a>
             <h1 class="h1">会员专享</h1>
+            <a class="fenxiang" href="javascript:;"></a>
         </div>
         <div class="swiper-container banner">
             <div class="swiper-wrapper">
@@ -33,23 +34,62 @@
         </div>
         <div class="con">
             <div class="details-info">
-                <div class="info-title">
-                    <h2>阳光海岛5日4夜游</h2>
-                    <span>4.7<b>分</b></span>
-                </div>
+                <div class="info-title">阳光海岛5日4夜游</div>
                 <div class="info-price">
-                    <span class="parice1">￥</span>
-                    <span class="parice2">999</span>
-                    <span class="parice3">/人</span>
-                    <span class="parice4">市场价：1588</span>
-                    <em class="parice5">非会员价：￥2888</em>
+
+                    <div class="part01">
+                        <b>抢购价</b><b>拼团价</b><b>会员价</b><b>会员免费</b>
+                        <em class="collect"><span></span>收藏</em>
+                    </div>
+
+                    <div class="part02">
+                        <div>
+                            <span class="parice1">￥</span>
+                            <span class="parice2">999</span>
+                            <span class="parice3">/人</span>
+                        </div>
+                        <div>
+                            <span class="parice4">抢购价：1588</span>
+                            <em class="parice5">市场价：2888</em>
+                        </div>
+                    </div>
+
+                    <div class="part03">
+                        <p>距抢购结束还剩</p>
+                        <ul class="time">
+                            <li>秒</li><li class="num">38<lim>
+                            <li>分</li><li class="num">33<lim>
+                            <li>时</li><li class="num">07<lim>
+                            <li>天</li><li class="num">01<lim>
+                        </ul>
+                    </div>
+
+                    <div class="part04">
+                        价格说明
+                        价格说明
+                        价格说明
+                        价格说明
+                        价格说明
+                        价格说明
+                        价格说明
+                        价格说明
+                        价格说明
+                        价格说明
+                        价格说明
+                        价格说明
+                        价格说明
+                        价格说明
+                        价格说明
+                        价格说明
+                    </div>
+
                 </div>
                 <div class="info-address">
                     <p>北京市朝阳区9号院</p>
                     <a>地图/周边</a>
                 </div>
                 <div class="info-comment">
-                    <p>评论</p>
+                    <p><em>4.5</em>分</p>
                     <a>11111条评论</a>
                 </div>
             </div>
@@ -59,11 +99,20 @@
                     <li>费用说明</li>
                     <li>预定须知</li>
                 </ol>
+                <div>
+                    <img src="img/banner1.jpg" alt="">
+                    <img src="img/banner2.jpg" alt="">
+                    <img src="img/banner1.jpg" alt="">
+                    <img src="img/banner2.jpg" alt="">
+                    <img src="img/banner1.jpg" alt="">
+                    <img src="img/banner2.jpg" alt="">
+                    <img src="img/banner1.jpg" alt="">
+                </div>
             </div>
         </div>
         <div class="binding">
-            <div class="collect">
-                <span></span>收藏
+            <div class="share">
+                <span><img src="img/fenxiang@2x.png" alt=""></span>分享
             </div>
             <a>立即绑定</a>
         </div>
@@ -85,6 +134,17 @@
         })
         $(".collect").on('click',function(){
             $(this).toggleClass('act');
+        })
+
+        var barH = $('.details-tab').offset().top;
+        var topH = parseInt($('.title').height());
+        $(document).scroll(function(){
+            var scroH = $(document).scrollTop();
+            if( scroH - barH >= -topH ){
+                $('.details-tab').css('position','fixed');
+            }else{
+                $('.details-tab').css('position','');
+            }
         })
     </script>
 </body>

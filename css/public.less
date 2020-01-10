@@ -114,8 +114,20 @@
 }
 
 /* 卡片信息 */
+.cardlist{
+    ol{
+        overflow: hidden;
+        padding: 0 .07rem;
+        li{
+            float: left;
+            margin: 0 0.04rem .1rem 0.04rem;
+        }
+    }
+}
 .card{
     width: 1.72rem;
+    background-color: #fff;
+    border-radius: .1rem;
     .img{
         position: relative;
     }
@@ -202,8 +214,14 @@
 
 /* 搜索 */
 .home-search{
-    height: .305rem;
-    margin-bottom: .1rem;
+    height: .5rem;
+    background-color: #0057FF;
+    padding: .1rem 0;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: 10;
     .input{
         width: 84%;
         height: .30rem;
@@ -240,15 +258,22 @@
     top: 0;
     z-index: 10;
     background-color: #fff;
-    .back{
+    .back,.fenxiang{
         width: .24rem;
         height: .24rem;
         top: 50%;
         margin-top: -0.12rem;
         background-size: cover;
         position: absolute;
+        background-size: cover;
+    }
+    .back{
         background-image: url(../img/fanhui@2x.png);
         left: .05rem;
+    }
+    .fenxiang{
+        background-image: url(../img/fenxiang@2x.png);
+        right: 0.05rem;
     }
     .dingwei{
         right: 0.08rem;
@@ -265,7 +290,6 @@
             background-image: url(../img/ding_bai.png);
             background-size: cover;
         }
-        
     }
     .h1{
         line-height: .4rem;

@@ -100,8 +100,18 @@
   opacity: 1;
 }
 /* 卡片信息 */
+.cardlist ol {
+  overflow: hidden;
+  padding: 0 0.07rem;
+}
+.cardlist ol li {
+  float: left;
+  margin: 0 0.04rem 0.1rem 0.04rem;
+}
 .card {
   width: 1.72rem;
+  background-color: #fff;
+  border-radius: 0.1rem;
 }
 .card .img {
   position: relative;
@@ -188,8 +198,14 @@
 }
 /* 搜索 */
 .home-search {
-  height: 0.305rem;
-  margin-bottom: 0.1rem;
+  height: 0.5rem;
+  background-color: #0057FF;
+  padding: 0.1rem 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 .home-search .input {
   width: 84%;
@@ -226,15 +242,22 @@
   z-index: 10;
   background-color: #fff;
 }
-.title .back {
+.title .back,
+.title .fenxiang {
   width: 0.24rem;
   height: 0.24rem;
   top: 50%;
   margin-top: -0.12rem;
-  background-size: cover;
   position: absolute;
+  background-size: cover;
+}
+.title .back {
   background-image: url(../img/fanhui@2x.png);
   left: 0.05rem;
+}
+.title .fenxiang {
+  background-image: url(../img/fenxiang@2x.png);
+  right: 0.05rem;
 }
 .title .dingwei {
   right: 0.08rem;
