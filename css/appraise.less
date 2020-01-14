@@ -1,0 +1,83 @@
+body{
+    padding-top: .5rem;
+    background-color: #f6f6f6;
+}
+.con{
+    border-top-left-radius: .1rem;
+    border-top-right-radius: .1rem;
+    overflow: hidden;
+}
+.appraise-list{
+    padding: .14rem .17rem .6rem .54rem;
+    border-bottom: 1px solid #ececec;
+    background-color: #fff;
+    border-bottom: 1px solid #ececec;
+    &:last-child{
+        border-bottom: 0;
+    }
+    .img{
+        width: .33rem;
+        height: .33rem;
+        background-color: #eee;
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+        left: .16rem;
+        img{
+            height: 100%;
+        }
+    }
+    .imglist{
+        overflow: hidden;
+        img{
+            width: .73rem;
+            height: .73rem;
+            border-radius: .05rem;
+            float: left;
+            margin-right: .03rem;
+            margin-bottom: .03rem;
+        }
+    }
+    h3{
+        font-size: .13rem;
+        color: #333;
+        line-height: .13rem;
+        margin-bottom: .02rem;
+        padding-top: .04rem;
+    }
+    b{
+        font-size: .12rem;
+        line-height: .12rem;
+        color: #999;
+    }
+    p{
+        font-size: .14rem;
+        color: #666;
+        line-height: .22rem;
+        margin-top: .12rem;
+        text-align: justify;
+        margin-bottom: .06rem;
+    }
+    .zan{
+        line-height: .24rem;
+        height: .24rem;
+        position: relative;
+        font-size: .12rem;
+        color: #bbb;
+        text-align: right;
+        margin-top: .20rem;
+        padding-left: .24rem;
+        width: .55rem;
+        float: right;
+        &::before{
+            content: '';
+            width: .24rem;
+            height: .24rem;
+            position: absolute;
+            left: 0;
+            top:0;
+            background-image: url(../img/dianzan@2x.png);
+            background-size: cover;
+        }
+    }
+}

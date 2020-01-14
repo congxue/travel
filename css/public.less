@@ -174,7 +174,7 @@
     }
     .num{
         font-size: .12rem;
-        line-height: .12rem;
+        line-height: .13rem;
         overflow: hidden;
         em,span{
             float: left;
@@ -258,7 +258,7 @@
     top: 0;
     z-index: 10;
     background-color: #fff;
-    .back,.fenxiang{
+    .back,.fenxiang,.more{
         width: .24rem;
         height: .24rem;
         top: 50%;
@@ -291,10 +291,98 @@
             background-size: cover;
         }
     }
+    .more{
+        background-image: url(../img/more.png);
+        right: 0.05rem;
+    }
     .h1{
         line-height: .4rem;
         text-align: center;
         font-size: .16rem;
         color: #333;
+    }
+}
+.details-info{
+    margin-bottom: .1rem;
+    background-color: #fff;
+    > div{
+        overflow: hidden;
+        padding: 0 .1rem;
+    }
+    .info-title{
+        height: .56rem;
+        background-image: url(../img/details1.png);
+        background-size: cover;
+        padding-top: .18rem;
+        padding-left: .14rem;
+        color: #fff;
+        font-size: .16rem;
+        font-weight: bold;
+        line-height: .16rem;
+    }
+    .info-address{
+        width: 3.55rem;
+        margin-left: .1rem;
+        margin-right: .1rem;
+        border-bottom: 1px solid #eee;
+        padding: 0;
+        p{
+            font-size: .14rem;
+            color: #1f1f1f;
+            position: relative;
+            padding-left: .16rem;
+            &::before{
+                content: "";
+                width: .16rem;
+                height: .16rem;
+                background-size: cover;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                margin-top: -0.09rem;
+            }
+        }
+    }
+    .info-address,.info-comment{
+        line-height: .42rem;
+        height: .42rem;
+        p{
+            float: left;
+        }
+        a{
+            float: right;
+            font-size: .12rem;
+            color: #999;
+            position: relative;
+            padding-right: .11rem;
+            color: #7FABFF;
+            &::after{
+                content: "";
+                width: .24rem;
+                height: .24rem;
+                background-image: url(../img/gengduo@2x.png);
+                background-size: cover;
+                display: block;
+                position: absolute;
+                right: -0.09rem;
+                top: .09rem;
+            }
+        }
+    }
+    .info-address p::before{
+        background-image: url(../img/dingweiweizhi@2x.png);
+    }
+}
+.arrow{
+    width: .24rem;
+    height: .24rem;
+    background-image: url(../img/fanhui_hui@2x.png);
+    background-size: cover;
+    position: absolute;
+    right: .01rem;
+    top:50%;
+    margin-top: -.12rem;
+    &.open{
+        background-image: url(../img/xiala@2x.png);
     }
 }

@@ -1,0 +1,186 @@
+body{
+    padding-top: .5rem;
+    background-color: #f6f6f6;
+}
+input{
+    width: 2rem;
+}
+.part{
+    background-color: #fff;
+    margin-bottom: .08rem;
+    padding: 0 .16rem;
+    >div{
+        overflow: hidden;
+    }
+}
+.part1{
+    padding-bottom: .16rem;
+}
+.part3{
+    padding: 0;
+}
+.checkin-title{
+    padding-left: .05rem;
+    h2{
+        font-size: .16rem;
+        line-height: .16rem;
+        padding-top: .2rem;
+        padding-bottom: .11rem;
+    }
+    p{
+        color: #999;
+        font-size: .12rem;
+        padding-bottom: .11rem;
+    }
+}
+.drop-down{
+
+    width: 100%;
+    height: .46rem;
+    position: relative;
+    background-color: #f6f6f6;
+    border-radius: .05rem;
+    label,p{
+        float: left;
+        line-height: .46rem;
+    }
+    label{
+        width: 1.06rem;
+        padding-left: .14rem;
+        font-size: .12rem;
+        color: #999;
+    }
+    p{
+        color: #666;
+        font-size: .14rem;
+    }
+}
+.room-info{
+    height: .57rem;
+    padding-left: .9rem;
+    position: relative;
+    padding-top: .1rem;
+    border-bottom: 1px solid #ececec;
+    &:last-child{
+        border-bottom: 0;
+    }
+    &.error{
+        height: .75rem;
+        span{
+            display: block;
+        }
+    }
+    &.act{
+        label,p{
+            color: #0057FF;
+        }
+    }
+    label{
+        font-size: .16rem;
+        color: #999;
+        position: absolute;
+        left: 0;
+        top:0;
+        line-height: .56rem;
+    }
+    p{
+        font-size: .12rem;
+        color: #666;
+        line-height: .13rem;
+    }
+    input{
+        height: .28rem;
+        padding-top: .06rem;
+        padding-bottom: .06rem;
+    }
+}
+.room-info,.room-tel{
+    span{
+        font-size: .12rem;
+        line-height: .15rem;
+        color: #FF0000;
+        position: relative;
+        padding-left: .16rem;
+        display: none;
+        &::before{
+            content: '';
+            width: .15rem;
+            height: .15rem;
+            background-image: url(../img/zhuyi@2x.png);
+            background-size: cover;
+            left: 0;
+            top: 0;
+            position: absolute;
+        }
+    }
+}
+.room-tel{
+    height: .62rem;
+    padding-left: 1.1rem;
+    position: relative;
+    border-bottom: 1px solid #ececec;
+    label{
+        color: #0057FF;
+        line-height: .56rem;
+        left:.16rem;
+        top:0;
+        position: absolute;
+        font-size: .16rem;
+        i{
+            width: .15rem;
+            height: .15rem;
+            background-image: url(../img/xiala@2x.png);
+            background-size: cover;
+            position: absolute;
+            left: 0.65rem;
+            top: 50%;
+            margin-top: -0.08rem;
+        }
+    }
+    p,input,span{
+        float: left;
+    }
+    p{
+        line-height: .15rem;
+        height: .15rem;
+        color: #333;
+        padding-right: .06rem;
+        border-right:1px solid #333;
+        font-size: .14rem;
+        position: relative;
+        top: .01rem;
+    }
+    input{
+        padding-left: .06rem;
+    }
+    span{
+        display: block;
+        margin-top: 0.04rem;
+        margin-bottom: 0.06rem;
+    }
+    .phone{
+        height: .16rem;
+        overflow: hidden;
+        margin-top: .19rem;
+    }
+}
+.room-hour{
+    height: .68rem;
+    position: relative;
+    padding-left: 1.1rem;
+    label{
+        color: #999999;
+        line-height: .68rem;
+        left:.16rem;
+        top:0;
+        position: absolute;
+    }
+    p{
+        line-height: .68rem;
+        color: #333;
+        width: 2.4rem;
+    }
+    .arrow{
+        right: .07rem;
+    }
+}

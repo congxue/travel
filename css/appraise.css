@@ -1,0 +1,82 @@
+body {
+  padding-top: 0.5rem;
+  background-color: #f6f6f6;
+}
+.con {
+  border-top-left-radius: 0.1rem;
+  border-top-right-radius: 0.1rem;
+  overflow: hidden;
+}
+.appraise-list {
+  padding: 0.14rem 0.17rem 0.6rem 0.54rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ececec;
+}
+.appraise-list:last-child {
+  border-bottom: 0;
+}
+.appraise-list .img {
+  width: 0.33rem;
+  height: 0.33rem;
+  background-color: #eee;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  left: 0.16rem;
+}
+.appraise-list .img img {
+  height: 100%;
+}
+.appraise-list .imglist {
+  overflow: hidden;
+}
+.appraise-list .imglist img {
+  width: 0.73rem;
+  height: 0.73rem;
+  border-radius: 0.05rem;
+  float: left;
+  margin-right: 0.03rem;
+  margin-bottom: 0.03rem;
+}
+.appraise-list h3 {
+  font-size: 0.13rem;
+  color: #333;
+  line-height: 0.13rem;
+  margin-bottom: 0.02rem;
+  padding-top: 0.04rem;
+}
+.appraise-list b {
+  font-size: 0.12rem;
+  line-height: 0.12rem;
+  color: #999;
+}
+.appraise-list p {
+  font-size: 0.14rem;
+  color: #666;
+  line-height: 0.22rem;
+  margin-top: 0.12rem;
+  text-align: justify;
+  margin-bottom: 0.06rem;
+}
+.appraise-list .zan {
+  line-height: 0.24rem;
+  height: 0.24rem;
+  position: relative;
+  font-size: 0.12rem;
+  color: #bbb;
+  text-align: right;
+  margin-top: 0.2rem;
+  padding-left: 0.24rem;
+  width: 0.55rem;
+  float: right;
+}
+.appraise-list .zan::before {
+  content: '';
+  width: 0.24rem;
+  height: 0.24rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(../img/dianzan@2x.png);
+  background-size: cover;
+}

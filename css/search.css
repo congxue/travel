@@ -63,7 +63,7 @@ body {
 }
 .history h2 {
   line-height: 0.5rem;
-  font-size: 14px;
+  font-size: 0.14rem;
   color: #424242;
   font-weight: bold;
 }
@@ -80,7 +80,7 @@ body {
 }
 .result h2 {
   line-height: 0.5rem;
-  font-size: 14px;
+  font-size: 0.14rem;
   color: #7d7d7d;
   font-weight: normal;
   margin-bottom: -0.12rem;

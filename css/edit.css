@@ -1,0 +1,149 @@
+body {
+  padding-top: 0.5rem;
+  background-color: #f6f6f6;
+}
+.name {
+  height: 0.86rem;
+  background-color: #fff;
+  padding: 0.13rem 0.19rem;
+  position: relative;
+  padding-left: 0.93rem;
+  margin-bottom: 0.09rem;
+}
+.name .img {
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  left: 0.19rem;
+  top: 0.13rem;
+}
+.name .img img {
+  height: 100%;
+  display: block;
+}
+.name h2 {
+  font-size: 0.15rem;
+  color: #333;
+  font-weight: bold;
+  line-height: 0.32rem;
+  margin-bottom: 0.05rem;
+}
+.name p {
+  font-size: 0.12rem;
+  color: #999;
+  line-height: 0.12rem;
+}
+.edit {
+  background-color: #fff;
+  padding: 0.16rem 0.19rem;
+  padding-right: 0;
+}
+.edit h3 {
+  font-size: 0.15rem;
+  color: #333;
+  line-height: 0.15rem;
+  margin-bottom: 0.19rem;
+}
+.edit textarea {
+  height: 1.03rem;
+  background-color: #F6F6F6;
+  padding: 0.14rem 0.18rem;
+  width: 100%;
+  resize: none;
+  width: 3.37rem;
+  text-align: justify;
+  line-height: 0.2rem;
+}
+.star {
+  margin-bottom: 0.21rem;
+  font-size: 0.13rem;
+  color: #333;
+}
+.star ol {
+  margin-right: 0.13rem;
+  overflow: hidden;
+  width: 1.4rem;
+  float: left;
+}
+.star li {
+  float: left;
+  width: 0.2rem;
+  height: 0.19rem;
+  background-image: url('../img/xingxing_weixuanzhong@2x.png');
+  background-size: cover;
+  margin-right: 0.07rem;
+}
+.star li.act {
+  background-image: url('../img/xingxing_xuanzhong@2x.png');
+}
+.editimg {
+  overflow: hidden;
+}
+.imgbtn {
+  width: 0.74rem;
+  height: 0.74rem;
+  background-image: url(../img/jiahao@2x.png);
+  background-size: cover;
+  overflow: hidden;
+  float: left;
+  margin-right: 0.17rem;
+  margin-top: 0.1rem;
+}
+.imgbtn input {
+  opacity: 0;
+  width: 0.74rem;
+  height: 0.74rem;
+}
+.imglist {
+  float: left;
+  height: 0.84rem;
+  padding-top: 0.1rem;
+  width: 2.65rem;
+  overflow-x: scroll;
+}
+.imglist ul {
+  display: flex;
+}
+.imglist li {
+  position: relative;
+  float: left;
+  margin-right: 0.07rem;
+}
+.imglist li:last-child {
+  margin-right: 0.19rem;
+}
+.imglist em {
+  width: 0.74rem;
+  height: 0.74rem;
+  background-color: #eee;
+  overflow: hidden;
+  display: block;
+}
+.imglist img {
+  height: 100%;
+  display: block;
+}
+.imglist .close {
+  width: 0.16rem;
+  height: 0.16rem;
+  background-image: url(../img/guanbi@2x.png);
+  background-size: cover;
+  position: absolute;
+  right: -0.07rem;
+  top: -0.07rem;
+}
+.btn {
+  width: 3.18rem;
+  margin: 0.26rem auto;
+  line-height: 0.52rem;
+  height: 0.52rem;
+  color: #fff;
+  text-align: center;
+  background-color: #0057FF;
+  font-size: 0.16rem;
+  display: block;
+  border-radius: 0.1rem;
+}

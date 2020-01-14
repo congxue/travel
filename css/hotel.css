@@ -1,0 +1,133 @@
+body {
+  padding-top: 0.4rem;
+  background-color: #f6f6f6;
+}
+.banner {
+  height: 1.84rem;
+}
+.banner .swiper-slide {
+  border-radius: 0;
+}
+.banner .swiper-slide img {
+  height: 100%;
+  width: auto;
+}
+.banner .swiper-pagination {
+  bottom: 0.27rem !important;
+  text-align: right;
+  padding-right: 0.2rem;
+}
+.con {
+  position: relative;
+  top: -0.2rem;
+  z-index: 1;
+  overflow: hidden;
+}
+.con,
+.hotel-list {
+  border-top-left-radius: 0.1rem;
+  border-top-right-radius: 0.1rem;
+}
+.details-info .info-title {
+  height: 0.82rem;
+  background-image: none;
+  color: #333;
+  padding-top: 0.25rem;
+}
+.details-info .info-address {
+  border-top: 1px solid #eee;
+  border-bottom: 0;
+}
+.hotel-list {
+  padding: 0 0.16rem 0.01rem 0.16rem;
+  background-color: #fff;
+}
+.hotel-list h2 {
+  font-size: 0.16rem;
+  color: #333;
+  line-height: 0.46rem;
+  margin-bottom: 0.08rem;
+}
+.hotel-list li {
+  height: 0.76rem;
+  margin-bottom: 0.12rem;
+}
+.hotel-list li a {
+  display: block;
+  float: left;
+  position: relative;
+  padding-left: 0.82rem;
+}
+.hotel-list li h3 {
+  font-size: 0.14rem;
+  color: #333;
+  font-weight: normal;
+  line-height: 0.24rem;
+}
+.hotel-list li .img {
+  position: absolute;
+  width: 0.76rem;
+  height: 0.76rem;
+  left: 0;
+  top: 0;
+  background-color: #f6f6f6;
+  border-radius: 0.05rem;
+  overflow: hidden;
+}
+.hotel-list li .img img {
+  display: block;
+  height: 100%;
+}
+.hotel-list li p {
+  font-size: 0.12rem;
+  color: #333;
+  line-height: 0.22rem;
+}
+.hotel-list li .tip {
+  overflow: hidden;
+  margin-top: 0.02rem;
+  margin-bottom: 0.1rem;
+  color: #999;
+}
+.hotel-list li .tip span {
+  float: left;
+  font-size: 0.12rem;
+  margin-right: 0.05rem;
+}
+.hotel-list li .color01 {
+  color: #0056FF;
+}
+.hotel-list li .color02 {
+  color: #7FABFF;
+}
+.hotel-list li .color03 {
+  color: #7BC86B;
+}
+.hotel-list li .btn {
+  width: 0.76rem;
+  height: 0.76rem;
+  float: right;
+}
+.hotel-list li .btn em,
+.hotel-list li .btn i {
+  display: block;
+  font-size: 0.2rem;
+  color: #FF692E;
+  font-weight: bold;
+  line-height: 0.4rem;
+  text-align: right;
+}
+.hotel-list li .btn b {
+  font-size: 0.12rem;
+}
+.hotel-list li .btn i {
+  background-color: #FF962E;
+  color: #fff;
+  width: 0.76rem;
+  height: 0.24rem;
+  line-height: 0.24rem;
+  border-radius: 0.05rem;
+  font-weight: normal;
+  font-size: 0.12rem;
+  text-align: center;
+}

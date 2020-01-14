@@ -159,7 +159,7 @@
 }
 .card .num {
   font-size: 0.12rem;
-  line-height: 0.12rem;
+  line-height: 0.13rem;
   overflow: hidden;
 }
 .card .num em,
@@ -243,7 +243,8 @@
   background-color: #fff;
 }
 .title .back,
-.title .fenxiang {
+.title .fenxiang,
+.title .more {
   width: 0.24rem;
   height: 0.24rem;
   top: 50%;
@@ -275,9 +276,101 @@
   background-image: url(../img/ding_bai.png);
   background-size: cover;
 }
+.title .more {
+  background-image: url(../img/more.png);
+  right: 0.05rem;
+}
 .title .h1 {
   line-height: 0.4rem;
   text-align: center;
   font-size: 0.16rem;
   color: #333;
+}
+.details-info {
+  margin-bottom: 0.1rem;
+  background-color: #fff;
+}
+.details-info > div {
+  overflow: hidden;
+  padding: 0 0.1rem;
+}
+.details-info .info-title {
+  height: 0.56rem;
+  background-image: url(../img/details1.png);
+  background-size: cover;
+  padding-top: 0.18rem;
+  padding-left: 0.14rem;
+  color: #fff;
+  font-size: 0.16rem;
+  font-weight: bold;
+  line-height: 0.16rem;
+}
+.details-info .info-address {
+  width: 3.55rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  border-bottom: 1px solid #eee;
+  padding: 0;
+}
+.details-info .info-address p {
+  font-size: 0.14rem;
+  color: #1f1f1f;
+  position: relative;
+  padding-left: 0.16rem;
+}
+.details-info .info-address p::before {
+  content: "";
+  width: 0.16rem;
+  height: 0.16rem;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -0.09rem;
+}
+.details-info .info-address,
+.details-info .info-comment {
+  line-height: 0.42rem;
+  height: 0.42rem;
+}
+.details-info .info-address p,
+.details-info .info-comment p {
+  float: left;
+}
+.details-info .info-address a,
+.details-info .info-comment a {
+  float: right;
+  font-size: 0.12rem;
+  color: #999;
+  position: relative;
+  padding-right: 0.11rem;
+  color: #7FABFF;
+}
+.details-info .info-address a::after,
+.details-info .info-comment a::after {
+  content: "";
+  width: 0.24rem;
+  height: 0.24rem;
+  background-image: url(../img/gengduo@2x.png);
+  background-size: cover;
+  display: block;
+  position: absolute;
+  right: -0.09rem;
+  top: 0.09rem;
+}
+.details-info .info-address p::before {
+  background-image: url(../img/dingweiweizhi@2x.png);
+}
+.arrow {
+  width: 0.24rem;
+  height: 0.24rem;
+  background-image: url(../img/fanhui_hui@2x.png);
+  background-size: cover;
+  position: absolute;
+  right: 0.01rem;
+  top: 50%;
+  margin-top: -0.12rem;
+}
+.arrow.open {
+  background-image: url(../img/xiala@2x.png);
 }
