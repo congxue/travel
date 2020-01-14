@@ -2,7 +2,7 @@ body {
   padding-top: 0.4rem;
   background-image: url(../img/fillin.png);
   background-size: cover;
-  background-position: no-repeat;
+  background-repeat: no-repeat;
   background-color: #fff;
 }
 .con {
@@ -134,44 +134,10 @@ body {
   margin-top: -0.02rem;
   border-radius: 50%;
 }
-.people .num {
+.people .num-handle {
   position: absolute;
   right: 0;
   top: 0;
-  width: 0.84rem;
-  height: 0.24rem;
-  line-height: 0.22rem;
-  border-radius: 0.05rem;
-  border: 1px solid #ececec;
-  padding: 0.01rem;
-  text-align: center;
-  font-size: 0.14rem;
-}
-.people .num span {
-  width: 0.2rem;
-  height: 0.2rem;
-  line-height: 0.2rem;
-  text-align: center;
-  border-radius: 0.05rem;
-  float: left;
-  background-color: #ECECEC;
-  color: #333;
-}
-.people .num input {
-  float: left;
-  width: 0.39rem;
-  line-height: 0.2rem;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0);
-}
-.people .num .sub {
-  float: left;
-}
-.people .num .add {
-  float: right;
-}
-.people .num .none {
-  color: #939393;
 }
 .agreement {
   line-height: 0.24rem;
@@ -198,59 +164,4 @@ body {
 }
 .agreement .check span {
   background-image: url(../img/xuanzhong@2x.png);
-}
-.total {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  background-color: #2C2F34;
-}
-.total .dou {
-  height: 0.4rem;
-  background-color: #FDECD0;
-  color: #FEAD2D;
-  font-size: 0.16rem;
-  padding: 0 0.19rem;
-}
-.total .dou span {
-  color: #FE4234;
-  border: 1px solid #FE4234;
-  font-size: 12px;
-  padding: 0 0.02rem;
-  border-radius: 0.02rem;
-  line-height: 0.18rem;
-  height: 0.2rem;
-  margin-left: 0.1rem;
-  margin-top: 0.1rem;
-}
-.total .dou span,
-.total .dou em {
-  float: left;
-}
-.total .dou em {
-  line-height: 0.4rem;
-}
-.total .rmb {
-  height: 0.5rem;
-  padding: 0.09rem 0.15rem 0.09rem 0.19rem;
-}
-.total .rmb a {
-  background-color: #FCB74A;
-  color: #fff;
-  font-size: 0.16rem;
-  line-height: 0.3rem;
-  text-align: center;
-  float: right;
-  width: 0.94rem;
-  border-radius: 0.05rem;
-}
-.total .rmb span {
-  font-size: 0.22rem;
-  color: #FC704A;
-  font-weight: bold;
-  float: left;
-}
-.total .rmb span i {
-  font-size: 0.12rem;
 }

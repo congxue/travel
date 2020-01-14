@@ -1,0 +1,297 @@
+body {
+  padding-top: 0.5rem;
+  background-color: #F6F6F6;
+  padding-bottom: 0.7rem;
+}
+#bar li {
+  width: 33.333%;
+}
+.to-mall span {
+  background-image: url(../img/home_weixuanzhong@2x.png);
+}
+.to-mall.act span {
+  background-image: url(../img/home_xuanzhong@2x.png);
+}
+.to-shop span {
+  background-image: url(../img/store_weixuanzhong@2x.png);
+}
+.to-shop.act span {
+  background-image: url(../img/store_xuanzhong@2x.png);
+}
+.to-car span {
+  background-image: url(../img/add_weixuanzhong@2x.png);
+}
+.to-car.act span {
+  background: url(../img/add_xuanzhong@2x.png);
+}
+.mall-title {
+  background-color: #FE8A22;
+}
+.mall-title .back {
+  background-image: url(../img/back_bai@2x.png);
+}
+.mall-title .h1 {
+  text-align: left;
+  color: #fff;
+  padding-left: 0.4rem;
+}
+.home-search {
+  position: absolute;
+  right: 0.17rem;
+  top: 0.05rem;
+  width: 1.43rem;
+  height: 0.3rem;
+  background-color: #fff;
+  border-radius: 0.15rem;
+  left: auto;
+  padding: 0;
+}
+.home-search .input {
+  background-color: #fff;
+}
+.home-search .input a {
+  color: #333;
+  top: 0;
+}
+.mall-order {
+  padding-top: 0.38rem;
+}
+.mall-pay {
+  padding-top: 0.8rem;
+}
+ul {
+  background-color: #fff;
+  padding: 0 0.13rem;
+}
+.goods {
+  padding: 0.14rem;
+  padding-left: 1rem;
+  position: relative;
+  height: 1.16rem;
+  border-bottom: 1px solid #ececec;
+}
+.goods:last-child {
+  border-bottom: 0;
+}
+.goods .img {
+  width: 0.9rem;
+  height: 0.9rem;
+  background-color: #f6f6f6;
+  border-radius: 0.1rem;
+  position: absolute;
+  left: 0;
+  top: 0.13rem;
+  overflow: hidden;
+}
+.goods .img img {
+  height: 100%;
+  display: block;
+}
+.goods h3 {
+  font-weight: normal;
+  font-size: 0.14rem;
+  color: #333;
+  line-height: 0.18rem;
+  text-align: justify;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  padding-top: 0.08rem;
+}
+.goods .icon-car {
+  width: 0.24rem;
+  height: 0.24rem;
+  background-image: url(../img/tianjiagouwuche@2x.png);
+  background-size: cover;
+  float: right;
+  margin-top: 0.14rem;
+}
+.goods .isSelectbtn {
+  width: 0.24rem;
+  height: 0.24rem;
+  background-image: url(../img/goods-no.png);
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -0.12rem;
+}
+.goods .isSelectbtn.act {
+  background-image: url(../img/goods-yes.png);
+}
+.goods .num-handle {
+  float: right;
+  margin-top: 0.17rem;
+}
+.goods .rmb,
+.goods .product-num {
+  font-size: 0.14rem;
+  margin-top: 0.2rem;
+  line-height: 0.18rem;
+}
+.goods .rmb {
+  color: #FB3B27;
+  float: left;
+}
+.goods .rmb i {
+  font-size: 0.12rem;
+}
+.goods .product-num {
+  float: right;
+  color: #333;
+}
+.goods .order-status {
+  font-size: 0.15rem;
+  line-height: 0.16rem;
+  color: #666;
+  float: right;
+  margin-top: 0.22rem;
+}
+.goods .order-status.paid {
+  color: #6DC56D;
+}
+.isSelect {
+  padding-left: 1.33rem;
+}
+.isSelect .img {
+  left: 0.3rem;
+}
+.go-pay {
+  position: fixed;
+  width: 100%;
+  height: 0.5rem;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.32);
+  font-size: 0.1rem;
+  background-color: #fff;
+  z-index: 10;
+  font-size: 0.14rem;
+  color: #333;
+  line-height: 0.5rem;
+  padding-left: 0.24rem;
+  font-weight: bold;
+}
+.go-pay span {
+  color: #FC3728;
+}
+.go-pay a {
+  width: 1.16rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  background-color: #FC3728;
+  color: #fff;
+  text-align: center;
+  font-size: 0.16rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.address {
+  background-color: #fff;
+  padding: 0.14rem 0.2rem;
+  margin-top: -0.1rem;
+}
+.address h4 {
+  font-weight: normal;
+  margin-bottom: 0.06rem;
+}
+.address h4 span {
+  font-size: 0.17rem;
+  line-height: 0.2rem;
+  color: #333;
+  margin-right: 0.1rem;
+}
+.address h4 p {
+  font-size: 0.12rem;
+  color: #999;
+  display: inline;
+}
+.address .text {
+  padding-left: 0.17rem;
+  color: #999;
+  position: relative;
+}
+.address .text::before {
+  content: '';
+  position: absolute;
+  width: 0.2rem;
+  height: 0.2rem;
+  background-image: url(../img/dingwei-yellow.png);
+  background-size: cover;
+  left: -0.04rem;
+  top: -0.01rem;
+}
+.address .text h5,
+.address .text h6 {
+  font-weight: normal;
+  font-size: 0.14rem;
+  line-height: 0.18rem;
+}
+.fapiao {
+  height: 0.58rem;
+  background-color: #fff;
+  line-height: 0.58rem;
+  padding: 0 0.12rem;
+  margin-top: 0.1rem;
+}
+.fapiao label {
+  font-size: 0.14rem;
+  color: #333;
+  font-weight: bold;
+  float: left;
+}
+.fapiao p {
+  font-size: 0.14rem;
+  color: #666;
+  float: right;
+}
+.fapiao span {
+  width: 0.24rem;
+  height: 0.24rem;
+  background-image: url(../img/more-black.png);
+  background-size: cover;
+  float: right;
+  margin-top: 0.17rem;
+  margin-left: 0.12rem;
+}
+.order-tab {
+  height: 0.48rem;
+  background-color: #fff;
+  margin-top: -0.1rem;
+}
+.order-tab span,
+.order-tab i {
+  transition: all 0.1s;
+}
+.order-tab span {
+  float: left;
+  width: 33.33%;
+  line-height: 0.48rem;
+  font-size: 0.15rem;
+  color: #666;
+  text-align: center;
+  position: relative;
+}
+.order-tab span.act {
+  color: #333;
+  font-weight: bold;
+}
+.order-tab span.act i {
+  background-color: #1F58FD;
+  color: #333;
+  font-weight: bold;
+}
+.order-tab span i {
+  width: 0.24rem;
+  height: 0.03rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -0.12rem;
+  background-color: #fff;
+}

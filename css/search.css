@@ -45,7 +45,7 @@ body {
 .search .input .close {
   width: 0.24rem;
   height: 0.24rem;
-  background-image: url(../img/guanbi@2x.png);
+  background-image: url(../img/inputclose.png);
   background-size: cover;
   float: right;
   position: relative;

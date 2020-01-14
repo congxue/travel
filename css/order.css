@@ -1,0 +1,115 @@
+body {
+  padding-top: 0.4rem;
+  background-color: #f6f6f6;
+}
+.banner {
+  height: 1.84rem;
+}
+.banner .swiper-slide {
+  border-radius: 0;
+}
+.banner .swiper-slide img {
+  height: 100%;
+  width: auto;
+}
+.banner .swiper-pagination {
+  bottom: 0.27rem !important;
+  text-align: right;
+  padding-right: 0.2rem;
+}
+.con {
+  position: relative;
+  top: -0.2rem;
+  z-index: 1;
+  overflow: hidden;
+}
+.con,
+.order-details {
+  border-top-left-radius: 0.1rem;
+  border-top-right-radius: 0.1rem;
+}
+.details-info {
+  padding: 0.19rem 0.16rem 0.17rem 0.2rem;
+}
+.details-info > div {
+  padding: 0!important;
+}
+.status {
+  margin-bottom: 0.15rem;
+}
+.status .info-title {
+  float: left;
+  padding: 0;
+  background-image: none;
+  color: #333;
+  line-height: 0.16rem;
+  height: 0.16rem;
+}
+.status i {
+  font-size: 0.12rem;
+  float: right;
+  line-height: 0.16rem;
+}
+.status i.ok {
+  color: #7BC86B;
+}
+.rmb {
+  position: relative;
+}
+.rmb p {
+  float: left;
+  font-size: 0.14rem;
+  line-height: 0.14rem;
+  font-weight: bold;
+  color: #FF692E;
+}
+.rmb p i {
+  font-size: 0.12rem;
+  font-weight: normal;
+}
+.rmb a {
+  float: right;
+  right: -0.1rem;
+}
+.order-details {
+  padding: 0 0.19rem 0 0.19rem;
+  background-color: #fff;
+  margin-bottom: 0.1rem;
+}
+.order-details h2 {
+  font-size: 0.16rem;
+  color: #333;
+  line-height: 0.16rem;
+  padding-top: 0.19rem;
+}
+.order-details li {
+  line-height: 0.52rem;
+  border-bottom: 1px solid #ececec;
+  overflow: hidden;
+}
+.order-details li:last-child {
+  border-bottom: 0;
+}
+.order-details li label {
+  float: left;
+  font-size: 0.12rem;
+  color: #999;
+}
+.order-details li p {
+  float: right;
+  text-align: right;
+  font-size: 0.14rem;
+  color: #666;
+}
+.order-details em {
+  width: 100%;
+  background: #F6F6F6;
+  min-height: 0.8rem;
+  color: #999999;
+  line-height: 0.2rem;
+  font-size: 0.14rem;
+  display: block;
+  padding: 0.13rem 0.16rem;
+  margin-top: 0.16rem;
+  margin-bottom: 0.16rem;
+}
