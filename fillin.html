@@ -10,7 +10,7 @@
     <title>填写</title>
 </head>
 <body>
-    <div>
+    <div class="page">
         <div class="title">
             <a class="back" href="javascript:;"></a>
             <h1 class="h1">填写订单</h1>
@@ -93,6 +93,57 @@
             </div>
         </div>
     </div>
+    <div class="pop">
+        <div class="pop-insurance">
+            <h3>请选择需要保险的种类</h3>
+            <ol>
+                <li class="act">保险种类1<span></span></li>
+                <li>保险种类2<span></span></li>
+                <li>保险种类3<span></span></li>
+            </ol>
+            <h3>被投保人<b>更多</b></h3>
+            <ul>
+                <li>
+                    <b></b>
+                    <h5>王小明</h5>
+                    <p>1101**********1101</p>
+                    <a href="javascript:;" class="arrow"></a>
+                </li>
+                <li>
+                    <b></b>
+                    <h5>王小明</h5>
+                    <p>1101**********1101</p>
+                    <a href="javascript:;" class="arrow"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="edit-people">
+        <div class="title">
+            <a class="back" href="javascript:;"></a>
+            <h1 class="h1">编辑被保人</h1>
+            <a class="end" href="javascript:;">完成</a>
+        </div>
+        <div class="people-info">
+            <h5>预定人信息</h5>
+            <div class="info-item">
+                <label>中文姓名</label>
+                <input type="text" value="王小明">
+                <span class="btn"></span>
+            </div>
+            <h5>证件信息</h5>
+            <div class="info-item">
+                <label>身份证</label>
+                <p>王小明</p>
+                <span class="btn sfz-ben"></span>
+            </div>
+            <div class="info-item">
+                <label>证件号码</label>
+                <input type="text" value="1010**********1234">
+                <span class="btn"></span>
+            </div>
+        </div>
+    </div>
     <script src="js/jquery.js"></script>
     <script src="js/public.js"></script>
     <script>
@@ -110,10 +161,14 @@
         $(document).scroll(function(){
             var scroH = $(document).scrollTop();
             if( scroH > 0 ){
-                $('.title').css('background','#0057FF');
+                $('.page .title').css('background','#0057FF');
             }else{
-                $('.title').css('background','rgba(0,0,0,0)');
+                $('.page .title').css('background','rgba(0,0,0,0)');
             }
+        })
+
+        $('.pop-insurance ol').on('click','li',function(){
+            $(this).addClass('act').siblings('li').removeClass('act');
         })
     </script>
 </body>

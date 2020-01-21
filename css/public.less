@@ -257,13 +257,13 @@
     top: 0;
     z-index: 10;
     background-color: #fff;
+    transition: all .2s;
     .back,.fenxiang,.more{
         width: .24rem;
         height: .24rem;
         top: .08rem;
         background-size: cover;
         position: absolute;
-        background-size: cover;
     }
     .back{
         background-image: url(../img/fanhui@2x.png);
@@ -298,6 +298,15 @@
         text-align: center;
         font-size: .16rem;
         color: #333;
+    }
+    .end{
+        float: right;
+        color: #0057FF;
+        font-size: .14rem;
+        line-height: .4rem;
+        position: absolute;
+        right: .13rem;
+        top:0;
     }
 }
 .details-info{
@@ -427,12 +436,35 @@
     bottom: 0;
     left: 0;
     background-color: #2C2F34;
-    .dou{
+    .dou,.balance{
         height: .4rem;
-        background-color: #FDECD0;
-        color: #FEAD2D;
         font-size: .16rem;
         padding: 0 .19rem;
+        em{
+            float: left;
+            line-height: .4rem;
+        }
+    }
+    .balance{
+        background-color: #BCE7BD;
+        color: #6CC764;
+        p{
+            float: right;
+            line-height: .4rem;
+            input{
+                width: .85rem;
+                height: .32rem;
+                line-height: .32rem;
+                font-size: .16rem;
+                border-radius: .06rem;
+                color: #333;
+                padding: 0 .1rem;
+            }
+        }
+    }
+    .dou{
+        background-color: #FDECD0;
+        color: #FEAD2D;
         span{
             color: #FE4234;
             border:1px solid #FE4234;
@@ -444,10 +476,11 @@
             margin-left: .1rem;
             margin-top: .1rem;
         }
-        span,em{
+        span{
             float: left;
         }
-        em{
+        b{
+            float: right;
             line-height: .4rem;
         }
     }

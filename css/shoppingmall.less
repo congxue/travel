@@ -59,9 +59,6 @@ body{
         }
     }
 }
-.mall-order{
-    padding-top: .38rem;
-}
 .mall-pay{
     padding-top: .8rem;
 }
@@ -73,8 +70,9 @@ ul{
     padding: .14rem;
     padding-left: 1rem;
     position: relative;
-    height: 1.16rem;
+    min-height: 1.16rem;
     border-bottom: 1px solid #ececec;
+    overflow: hidden;
     &:last-child{
         border-bottom: 0;
     }
@@ -85,7 +83,7 @@ ul{
         border-radius: .1rem;
         position: absolute;
         left: 0;
-        top:.13rem;
+        bottom:.13rem;
         overflow: hidden;
         img{
             height: 100%;
@@ -149,14 +147,41 @@ ul{
         color: #333;
     }
     .order-status{
-        font-size: .15rem;
-        line-height: .16rem;
-        color: #666;
+        font-size: .16rem;
+        color: #333;
         float: right;
-        margin-top: .22rem;
-        &.paid{
+        &.pindan-gopay{
             color: #6DC56D;
         }
+        &.no-pay{
+            color: #FB3B27;
+        }
+        &.pindan{
+            color: #FEB028;
+        }
+    }
+    .time{
+        line-height: .38rem;
+        font-size: .12rem;
+        color: #999;
+    }
+    .order-del{
+        width: .24rem;
+        height: .24rem;
+        background-image: url(../img/shanchu@2x.png);
+        background-size: cover;
+        float: right;
+        margin-top: .19rem;
+    }
+    .go-pay-btn{
+        width: .76rem;
+        height: .3rem;
+        color: #fff;
+        background-color: #FF4229;
+        text-align: center;
+        float: right;
+        line-height: .3rem;
+        border-radius: .05rem;
     }
 }
 .isSelect{
@@ -298,4 +323,40 @@ ul{
         }
     }
 }
-
+.mall-order{
+    padding-top: .38rem;
+    .goods{
+        height: 1.4rem;
+        padding-top: 0;
+        border-bottom: 0;
+        margin-bottom: .1rem;
+        background-color: #fff;
+        padding-left: 1.03rem;
+        .img{
+            left: .13rem;
+            width: .77rem;
+            height: .77rem;
+            bottom: .12rem;
+        }
+        .rmb{
+            margin-top: .24rem;
+        }
+        h3{
+            position: relative;
+            top: .06rem;
+        }
+        .go-pay-btn{
+            margin-top: .15rem;
+        }
+    }
+    .time{
+        width: 3.49rem;
+        position: relative;
+        left: -0.9rem;
+        border-bottom: 1px solid #ececec;
+    }
+    ul{
+        padding: 0;
+        background-color: transparent;
+    }
+}

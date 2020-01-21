@@ -240,6 +240,7 @@
   top: 0;
   z-index: 10;
   background-color: #fff;
+  transition: all 0.2s;
 }
 .title .back,
 .title .fenxiang,
@@ -247,8 +248,8 @@
   width: 0.24rem;
   height: 0.24rem;
   top: 0.08rem;
-  position: absolute;
   background-size: cover;
+  position: absolute;
 }
 .title .back {
   background-image: url(../img/fanhui@2x.png);
@@ -283,6 +284,15 @@
   text-align: center;
   font-size: 0.16rem;
   color: #333;
+}
+.title .end {
+  float: right;
+  color: #0057FF;
+  font-size: 0.14rem;
+  line-height: 0.4rem;
+  position: absolute;
+  right: 0.13rem;
+  top: 0;
 }
 .details-info {
   margin-bottom: 0.1rem;
@@ -416,12 +426,37 @@
   left: 0;
   background-color: #2C2F34;
 }
-.total .dou {
+.total .dou,
+.total .balance {
   height: 0.4rem;
-  background-color: #FDECD0;
-  color: #FEAD2D;
   font-size: 0.16rem;
   padding: 0 0.19rem;
+}
+.total .dou em,
+.total .balance em {
+  float: left;
+  line-height: 0.4rem;
+}
+.total .balance {
+  background-color: #BCE7BD;
+  color: #6CC764;
+}
+.total .balance p {
+  float: right;
+  line-height: 0.4rem;
+}
+.total .balance p input {
+  width: 0.85rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  font-size: 0.16rem;
+  border-radius: 0.06rem;
+  color: #333;
+  padding: 0 0.1rem;
+}
+.total .dou {
+  background-color: #FDECD0;
+  color: #FEAD2D;
 }
 .total .dou span {
   color: #FE4234;
@@ -434,11 +469,11 @@
   margin-left: 0.1rem;
   margin-top: 0.1rem;
 }
-.total .dou span,
-.total .dou em {
+.total .dou span {
   float: left;
 }
-.total .dou em {
+.total .dou b {
+  float: right;
   line-height: 0.4rem;
 }
 .total .rmb {

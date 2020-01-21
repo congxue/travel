@@ -53,9 +53,6 @@ body {
   color: #333;
   top: 0;
 }
-.mall-order {
-  padding-top: 0.38rem;
-}
 .mall-pay {
   padding-top: 0.8rem;
 }
@@ -67,8 +64,9 @@ ul {
   padding: 0.14rem;
   padding-left: 1rem;
   position: relative;
-  height: 1.16rem;
+  min-height: 1.16rem;
   border-bottom: 1px solid #ececec;
+  overflow: hidden;
 }
 .goods:last-child {
   border-bottom: 0;
@@ -80,7 +78,7 @@ ul {
   border-radius: 0.1rem;
   position: absolute;
   left: 0;
-  top: 0.13rem;
+  bottom: 0.13rem;
   overflow: hidden;
 }
 .goods .img img {
@@ -145,14 +143,41 @@ ul {
   color: #333;
 }
 .goods .order-status {
-  font-size: 0.15rem;
-  line-height: 0.16rem;
-  color: #666;
+  font-size: 0.16rem;
+  color: #333;
   float: right;
-  margin-top: 0.22rem;
 }
-.goods .order-status.paid {
+.goods .order-status.pindan-gopay {
   color: #6DC56D;
+}
+.goods .order-status.no-pay {
+  color: #FB3B27;
+}
+.goods .order-status.pindan {
+  color: #FEB028;
+}
+.goods .time {
+  line-height: 0.38rem;
+  font-size: 0.12rem;
+  color: #999;
+}
+.goods .order-del {
+  width: 0.24rem;
+  height: 0.24rem;
+  background-image: url(../img/shanchu@2x.png);
+  background-size: cover;
+  float: right;
+  margin-top: 0.19rem;
+}
+.goods .go-pay-btn {
+  width: 0.76rem;
+  height: 0.3rem;
+  color: #fff;
+  background-color: #FF4229;
+  text-align: center;
+  float: right;
+  line-height: 0.3rem;
+  border-radius: 0.05rem;
 }
 .isSelect {
   padding-left: 1.33rem;
@@ -294,4 +319,41 @@ ul {
   bottom: 0;
   margin-left: -0.12rem;
   background-color: #fff;
+}
+.mall-order {
+  padding-top: 0.38rem;
+}
+.mall-order .goods {
+  height: 1.4rem;
+  padding-top: 0;
+  border-bottom: 0;
+  margin-bottom: 0.1rem;
+  background-color: #fff;
+  padding-left: 1.03rem;
+}
+.mall-order .goods .img {
+  left: 0.13rem;
+  width: 0.77rem;
+  height: 0.77rem;
+  bottom: 0.12rem;
+}
+.mall-order .goods .rmb {
+  margin-top: 0.24rem;
+}
+.mall-order .goods h3 {
+  position: relative;
+  top: 0.06rem;
+}
+.mall-order .goods .go-pay-btn {
+  margin-top: 0.15rem;
+}
+.mall-order .time {
+  width: 3.49rem;
+  position: relative;
+  left: -0.9rem;
+  border-bottom: 1px solid #ececec;
+}
+.mall-order ul {
+  padding: 0;
+  background-color: transparent;
 }

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/me.css">
+    <title>我的</title>
+</head>
+<body>
+    <div>
+        <div class="title">
+            <h1 class="h1">我的</h1>
+        </div>
+        <div class="con">
+            <div class="user">
+                <h2>您好，135****1234</h2>
+                <div class="changyou">
+                    畅游豆 999
+                    <a href="javascript:;" class="arrow"></a>
+                </div>
+            </div>
+            <div class="userlist">
+                <ul>
+                    <li>
+                        <span><img src="img/credit-level@2x.png" alt=""></span>
+                        <label>会员升级</label>
+                        <a href="javascript:;" class="arrow"></a>
+                    </li>
+                    <li>
+                        <span><img src="img/wallet@2x.png" alt=""></span>
+                        <label>我的账户</label>
+                        <a href="javascript:;" class="arrow"></a>
+                    </li>
+                    <li>
+                        <span><img src="img/namecard@2x.png" alt=""></span>
+                        <label>个人资料</label>
+                        <a href="javascript:;" class="arrow"></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span><img src="img/creditcard@2x.png" alt=""></span>
+                        <label>畅游卡激活</label>
+                        <a href="javascript:;" class="arrow"></a>
+                    </li>
+                    <li>
+                        <span><img src="img/creditcard@2x.png" alt=""></span>
+                        <label>景点卡激活</label>
+                        <a href="javascript:;" class="arrow"></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span><img src="img/pic@2x.png" alt=""></span>
+                        <label>我的海报</label>
+                        <a href="javascript:;" class="arrow"></a>
+                    </li>
+                    <li>
+                        <span><img src="img/share@2x.png" alt=""></span>
+                        <label>分享</label>
+                        <a href="javascript:;" class="arrow"></a>
+                    </li>
+                    <li>
+                        <span><img src="img/Customermanagement@2x.png" alt=""></span>
+                        <label>我的团队</label>
+                        <a href="javascript:;" class="arrow"></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span><img src="img/signboard@2x.png" alt=""></span>
+                        <label>用户须知</label>
+                        <a href="javascript:;" class="arrow"></a>
+                    </li>
+                    <li>
+                        <span><img src="img/service@2x.png" alt=""></span>
+                        <label>客服电话</label>
+                        <a href="javascript:;" class="arrow"></a>
+                    </li>
+                    <li>
+                        <span><img src="img/feeds@2x.png" alt=""></span>
+                        <label>关于我们</label>
+                        <a href="javascript:;" class="arrow"></a>
+                    </li>
+                </ul>
+                <p class="signout">退出登录</p>
+            </div>
+        </div>
+        <div id="bar">
+            <ul>
+                <li class="to-home"><a href="javascript:;"><span></span><em>首页</em></a></li>
+                <li class="to-service"><a href="javascript:;"><span></span><em>客服</em></a></li>
+                <li class="to-order"><a href="javascript:;"><span></span><em>订单</em></a></li>
+                <li class="to-me act"><a href="javascript:;"><span></span><em>我的</em></a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/public.js"></script>
+    <script>
+        $(document).scroll(function(){
+            var scroH = $(document).scrollTop();
+            if( scroH > 0 ){
+                $('.title').css('background','#0057FF');
+            }else{
+                $('.title').css('background','rgba(0,0,0,0)');
+            }
+        })
+    </script>
+</body>
+</html>

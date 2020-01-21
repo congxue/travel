@@ -165,3 +165,184 @@ body {
 .agreement .check span {
   background-image: url(../img/xuanzhong@2x.png);
 }
+.pop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 11;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.pop .pop-insurance {
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top-left-radius: 0.1rem;
+  border-top-right-radius: 0.1rem;
+  padding: 0.22rem;
+}
+.pop .pop-insurance h3 {
+  font-size: 0.16rem;
+  color: #333;
+  line-height: 0.16rem;
+  margin-bottom: 0.22rem;
+}
+.pop .pop-insurance h3 b {
+  font-size: 0.12rem;
+  line-height: 0.12rem;
+  color: #0057FF;
+  position: relative;
+  float: right;
+}
+.pop .pop-insurance h3 b::before {
+  content: '';
+  position: absolute;
+  left: -0.08rem;
+  top: 50%;
+  margin-top: -0.03rem;
+  width: 0.06rem;
+  height: 0.06rem;
+  background-size: cover;
+  background-image: url(../img/more-baoxian.png);
+}
+.pop .pop-insurance ol {
+  margin-bottom: 0.3rem;
+}
+.pop .pop-insurance ol li {
+  background-color: #F7F6F6;
+  line-height: 0.4rem;
+  font-size: 0.14rem;
+  color: #333;
+  padding: 0 0.16rem;
+  transition: all 0.1s;
+  border-radius: 0.05rem;
+  margin-bottom: 0.1rem;
+}
+.pop .pop-insurance ol li span {
+  width: 0.18rem;
+  height: 0.18rem;
+  float: right;
+  border-radius: 50%;
+  border: 1px solid #999;
+  margin-top: 0.11rem;
+  background-size: contain;
+}
+.pop .pop-insurance ol li.act {
+  background-color: #0057FF;
+  color: #fff;
+}
+.pop .pop-insurance ol li.act span {
+  background-color: #fff;
+  border: 0;
+  background-image: url(../img/select-baoxian.png);
+}
+.pop .pop-insurance ul {
+  margin-top: -0.09rem;
+  margin-bottom: 0.07rem;
+}
+.pop .pop-insurance ul li {
+  position: relative;
+  padding-left: 0.32rem;
+  border-bottom: 1px solid #ececec;
+  height: 0.7rem;
+  padding-top: 0.17rem;
+}
+.pop .pop-insurance ul li b {
+  width: 0.18rem;
+  height: 0.18rem;
+  background-size: contain;
+  background-image: url(../img/del-baoxian.png);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -0.09rem;
+  background-repeat: no-repeat;
+}
+.pop .pop-insurance ul li h5 {
+  font-size: 0.16rem;
+  line-height: 0.16rem;
+  color: #333;
+}
+.pop .pop-insurance ul li p {
+  color: #999;
+  font-size: 0.12rem;
+  line-height: 0.3rem;
+}
+.pop .pop-insurance ul li .arrow {
+  right: -0.08rem;
+}
+.edit-people {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 12;
+  background-color: #F6F6F6;
+  width: 100%;
+  height: 100%;
+  padding-top: 0.5rem;
+  display: none;
+}
+.edit-people .title {
+  background-color: #fff;
+}
+.edit-people .title .h1 {
+  color: #333;
+}
+.edit-people .title .back {
+  background-image: url(../img/fanhui@2x.png);
+}
+.edit-people .people-info {
+  padding: 0.1rem 0.28rem 0.22rem 0.28rem;
+  background-color: #fff;
+}
+.edit-people .people-info h5 {
+  font-size: 0.15rem;
+  color: #555;
+  line-height: 0.15rem;
+  margin-bottom: 0.14rem;
+  font-weight: normal;
+  padding-top: 0.13rem;
+}
+.edit-people .people-info .info-item {
+  background-color: #F7F6F6;
+  border-radius: 0.05rem;
+  line-height: 0.4rem;
+  overflow: hidden;
+  margin-bottom: 0.09rem;
+}
+.edit-people .people-info label {
+  font-size: 0.12rem;
+  color: #333;
+  float: left;
+  width: 0.87rem;
+  padding-left: 0.15rem;
+}
+.edit-people .people-info input,
+.edit-people .people-info p {
+  float: left;
+  font-size: 0.14rem;
+  color: #333;
+  line-height: 0.4rem;
+  height: 0.4rem;
+  width: 1.4rem;
+}
+.edit-people .people-info input {
+  background-color: transparent;
+  height: 0.4rem;
+}
+.edit-people .people-info .btn {
+  float: right;
+  width: 0.24rem;
+  height: 0.24rem;
+  background-size: cover;
+  background-image: url(../img/inputclose.png);
+  margin-top: 0.08rem;
+  margin-right: 0.11rem;
+}
+.edit-people .people-info .sfz-ben {
+  background-image: url(../img/xiala@2x.png);
+}

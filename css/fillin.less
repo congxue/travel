@@ -169,3 +169,184 @@ body {
         background-image: url(../img/xuanzhong@2x.png);
     }
 }
+.pop{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 11;
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    .pop-insurance{
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border-top-left-radius: 0.1rem;
+        border-top-right-radius: 0.1rem;
+        padding: .22rem;
+        h3{
+            font-size: .16rem;
+            color: #333;
+            line-height: .16rem;
+            margin-bottom: .22rem;
+            b{
+                font-size: .12rem;
+                line-height: .12rem;
+                color: #0057FF;
+                position: relative;
+                float: right;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    left: -0.08rem;
+                    top:50%;
+                    margin-top: -0.03rem;
+                    width: .06rem;
+                    height: .06rem;
+                    background-size: cover;
+                    background-image: url(../img/more-baoxian.png);
+                }
+            }
+        }
+        ol{
+            margin-bottom: .3rem;
+        }
+        ol li{
+            background-color: #F7F6F6;
+            line-height: .4rem;
+            font-size: .14rem;
+            color: #333;
+            padding: 0 .16rem;
+            margin-bottom: .1rem;
+            transition: all 0.1s;
+            border-radius: .05rem;
+            margin-bottom: .1rem;
+            span{
+                width: .18rem;
+                height: .18rem;
+                float: right;
+                border-radius: 50%;
+                border: 1px solid #999;
+                margin-top: .11rem;
+                background-size: contain;
+            }
+            &.act{
+                background-color: #0057FF;
+                color: #fff;
+                span{
+                    background-color: #fff;
+                    border: 0;
+                    background-image: url(../img/select-baoxian.png);
+                }
+            }
+        }
+        ul{
+            margin-top: -0.09rem;
+            margin-bottom: .07rem;
+        }
+        ul li{
+            position: relative;
+            padding-left: .32rem;
+            border-bottom: 1px solid #ececec;
+            height: .7rem;
+            padding-top: .17rem;
+            b{
+                width: .18rem;
+                height: .18rem;
+                background-size: contain;
+                background-image: url(../img/del-baoxian.png);
+                position: absolute;
+                left: 0;
+                top: 50%;
+                margin-top: -0.09rem;
+                background-repeat: no-repeat;
+            }
+            h5{
+                font-size: .16rem;
+                line-height: .16rem;
+                color: #333;
+            }
+            p{
+                color: #999;
+                font-size: .12rem;
+                line-height: .3rem;
+            }
+            .arrow{
+                right: -0.08rem;
+            }
+        }
+    }
+}
+.edit-people{
+    position: fixed;
+    left: 0;
+    top:0;
+    z-index: 12;
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 100%;
+    padding-top: .5rem;
+    display: none;
+    .title{
+        background-color: #fff;
+        .h1{
+            color: #333;
+        }
+        .back{
+            background-image: url(../img/fanhui@2x.png);
+        }
+    }
+    .people-info{
+        padding: 0.1rem .28rem .22rem .28rem;
+        background-color: #fff;
+        h5{
+            font-size: .15rem;
+            color: #555;
+            line-height: .15rem;
+            margin-bottom: .14rem;
+            font-weight: normal;
+            padding-top: .13rem;
+        }
+        .info-item{
+            background-color: #F7F6F6;
+            border-radius: .05rem;
+            line-height: .4rem;
+            overflow: hidden;
+            margin-bottom: .09rem;
+        }
+        label{
+            font-size: .12rem;
+            color: #333;
+            float: left;
+            width: .87rem;
+            padding-left: .15rem;
+        }
+        input,p{
+            float: left;
+            font-size: .14rem;
+            color: #333;
+            line-height: .4rem;
+            height: .4rem;     
+            width: 1.4rem;       
+        }
+        input{
+            background-color: transparent;
+            height: .4rem;
+        }
+        .btn{
+            float: right;
+            width: .24rem;
+            height: .24rem;
+            background-size: cover;
+            background-image: url(../img/inputclose.png);
+            margin-top: .08rem;
+            margin-right: .11rem;
+        }
+        .sfz-ben{
+            background-image: url(../img/xiala@2x.png);
+        }
+    }
+}
