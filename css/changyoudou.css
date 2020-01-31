@@ -1,0 +1,69 @@
+body {
+  padding-top: 0.4rem;
+}
+.top {
+  height: 1.5rem;
+  background-color: #FFA33C;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+.top h2 {
+  font-size: 0.24rem;
+  line-height: 0.28rem;
+  color: #fff;
+}
+.top p {
+  font-size: 0.12rem;
+  color: #fff;
+  opacity: 0.5;
+  line-height: 0.32rem;
+}
+.list p {
+  line-height: 0.3rem;
+  font-size: 0.12rem;
+  color: #999;
+  padding: 0 0.17rem;
+  background-color: #f6f6f6;
+}
+.list li {
+  height: 0.7rem;
+  padding: 0 0.17rem;
+  border-bottom: 1px solid #ececec;
+}
+.list li .left {
+  float: left;
+}
+.list li .left span,
+.list li .left em {
+  display: block;
+}
+.list li .left span {
+  font-size: 0.16rem;
+  color: #333;
+  line-height: 0.16rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.12rem;
+}
+.list li .left em {
+  font-size: 0.12rem;
+  line-height: 0.12rem;
+  color: #999;
+}
+.list li .right {
+  float: right;
+  font-size: 0.2rem;
+  color: #83C75A;
+  font-weight: bold;
+  line-height: 0.7rem;
+}
+.btn {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  line-height: 0.5rem;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  font-size: 0.14rem;
+  background-color: #FC3728;
+}
