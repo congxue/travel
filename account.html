@@ -59,8 +59,32 @@
                 <a href="javascript:;">提现</a>
             </div>
         </div>
+        <div class="pop">
+            <div class="pop-account">
+                <h3>请选择提现方式</h3>
+                <ol>
+                    <li class="act"><b><img src="img/weixin@2x.png" alt=""></b>提现到微信<span></span></li>
+                    <li><b><img src="img/zhifubao@2x.png" alt=""></b>提现到支付宝<span></span></li>
+                </ol>
+                <a href="javascript:;">确定</a>
+            </div>
+            <div class="pop-nopay">
+                <img src="img/zhuyi1@2x.png" alt="">
+                您当前还未绑定微信/支付宝
+                <a href="javascript:;">立即绑定</a>
+            </div>
+            <div class="pop-ok">
+                <img src="img/chenggong@2x.png" alt="">
+                绑定成功
+            </div>
+        </div>
     </div>
     <script src="js/jquery.js"></script>
     <script src="js/public.js"></script>
+    <script>
+        $('.pop-account li').on('click',function(){
+            $(this).toggleClass('act').siblings('li').removeClass('act');
+        })
+    </script>
 </body>
 </html>

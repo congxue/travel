@@ -165,17 +165,7 @@ body {
 .agreement .check span {
   background-image: url(../img/xuanzhong@2x.png);
 }
-.pop {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 11;
-  background-color: rgba(0, 0, 0, 0.3);
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-.pop .pop-insurance {
+.pop-insurance {
   background-color: #fff;
   position: absolute;
   left: 0;
@@ -185,20 +175,20 @@ body {
   border-top-right-radius: 0.1rem;
   padding: 0.22rem;
 }
-.pop .pop-insurance h3 {
+.pop-insurance h3 {
   font-size: 0.16rem;
   color: #333;
   line-height: 0.16rem;
   margin-bottom: 0.22rem;
 }
-.pop .pop-insurance h3 b {
+.pop-insurance h3 b {
   font-size: 0.12rem;
   line-height: 0.12rem;
   color: #0057FF;
   position: relative;
   float: right;
 }
-.pop .pop-insurance h3 b::before {
+.pop-insurance h3 b::before {
   content: '';
   position: absolute;
   left: -0.08rem;
@@ -209,10 +199,10 @@ body {
   background-size: cover;
   background-image: url(../img/more-baoxian.png);
 }
-.pop .pop-insurance ol {
+.pop-insurance ol {
   margin-bottom: 0.3rem;
 }
-.pop .pop-insurance ol li {
+.pop-insurance ol li {
   background-color: #F7F6F6;
   line-height: 0.4rem;
   font-size: 0.14rem;
@@ -222,7 +212,7 @@ body {
   border-radius: 0.05rem;
   margin-bottom: 0.1rem;
 }
-.pop .pop-insurance ol li span {
+.pop-insurance ol li span {
   width: 0.18rem;
   height: 0.18rem;
   float: right;
@@ -231,27 +221,27 @@ body {
   margin-top: 0.11rem;
   background-size: contain;
 }
-.pop .pop-insurance ol li.act {
+.pop-insurance ol li.act {
   background-color: #0057FF;
   color: #fff;
 }
-.pop .pop-insurance ol li.act span {
+.pop-insurance ol li.act span {
   background-color: #fff;
   border: 0;
   background-image: url(../img/select-baoxian.png);
 }
-.pop .pop-insurance ul {
+.pop-insurance ul {
   margin-top: -0.09rem;
   margin-bottom: 0.07rem;
 }
-.pop .pop-insurance ul li {
+.pop-insurance ul li {
   position: relative;
   padding-left: 0.32rem;
   border-bottom: 1px solid #ececec;
   height: 0.7rem;
   padding-top: 0.17rem;
 }
-.pop .pop-insurance ul li b {
+.pop-insurance ul li b {
   width: 0.18rem;
   height: 0.18rem;
   background-size: contain;
@@ -262,17 +252,17 @@ body {
   margin-top: -0.09rem;
   background-repeat: no-repeat;
 }
-.pop .pop-insurance ul li h5 {
+.pop-insurance ul li h5 {
   font-size: 0.16rem;
   line-height: 0.16rem;
   color: #333;
 }
-.pop .pop-insurance ul li p {
+.pop-insurance ul li p {
   color: #999;
   font-size: 0.12rem;
   line-height: 0.3rem;
 }
-.pop .pop-insurance ul li .arrow {
+.pop-insurance ul li .arrow {
   right: -0.08rem;
 }
 .edit-people {

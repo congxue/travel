@@ -1,0 +1,54 @@
+body {
+  background-color: #f6f6f6;
+}
+.con {
+  padding-top: 0.5rem;
+}
+ul {
+  background-color: #fff;
+}
+li {
+  padding: 0.15rem 0.13rem;
+  padding-left: 0.65rem;
+  position: relative;
+}
+li span {
+  width: 0.42rem;
+  height: 0.42rem;
+  border-radius: 50%;
+  background-color: #eee;
+  position: absolute;
+  left: 0.13rem;
+  top: 0.15rem;
+}
+li span img {
+  width: 100%;
+  display: block;
+}
+li h4,
+li i {
+  float: left;
+}
+li div {
+  overflow: hidden;
+  margin-bottom: 0.08rem;
+}
+li i {
+  padding: 0 0.03rem;
+  border: 1px solid #0057FF;
+  background-color: #EDF3FF;
+  font-size: 0.12rem;
+  color: #0057FF;
+}
+li h4 {
+  color: #333;
+  font-size: 0.16rem;
+  font-weight: bold;
+  line-height: 0.2rem;
+  margin-right: 0.06rem;
+}
+li p {
+  font-size: 0.13rem;
+  color: #999;
+  line-height: 0.14rem;
+}

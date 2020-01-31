@@ -26,6 +26,14 @@ body {
   background-color: #fff;
   border-bottom: 1px solid #eee;
 }
+.form-item b {
+  width: 0.42rem;
+  height: 0.42rem;
+  border-radius: 50%;
+  background-color: #eee;
+  float: right;
+  margin-top: 0.07rem;
+}
 .form-item label {
   font-size: 0.14rem;
   color: #333;
@@ -45,7 +53,7 @@ body {
   font-size: 0.14rem;
   color: #999;
 }
-.form-item.form-name {
+.form-item.form-margin {
   margin-top: 0.1rem;
 }
 form {
