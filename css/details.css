@@ -225,11 +225,25 @@ body {
 .details-tab li.act::after {
   display: block;
 }
+.details-con {
+  background-color: #fff;
+  padding-bottom: 0.15rem;
+}
 .details-con img {
   max-width: 100%;
 }
 .details-con p {
   padding: 0 0.1rem;
+}
+.details-con .details-area {
+  color: #666;
+  font-size: 0.12rem;
+  line-height: 0.18rem;
+  background-color: #f6f6f6;
+  padding: 0.14rem;
+  text-align: justify;
+  width: 3.55rem;
+  margin: 0 auto;
 }
 .binding {
   width: 100%;
@@ -267,4 +281,37 @@ body {
   text-align: center;
   color: #fff;
   width: 75%;
+}
+.shop .details-info .info-title {
+  background-image: none;
+  color: #333;
+}
+.shop .details-info .info-address {
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.shop .details-tab li {
+  width: 100%;
+}
+.shop .details-tab .act::before {
+  display: none!important;
+}
+.shop .details-tab .act::after {
+  left: 50%;
+  margin-left: -0.06rem;
+}
+.shop .details-info .info-address a {
+  padding-right: 0.22rem;
+  color: #0057FF;
+}
+.shop .details-info .info-address a::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -0.12rem;
+  background-image: url(../img/dingwei-blue@2x.png);
+  background-size: cover;
+  width: 0.24rem;
+  height: 0.24rem;
 }

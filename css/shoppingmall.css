@@ -179,6 +179,29 @@ ul {
   line-height: 0.3rem;
   border-radius: 0.05rem;
 }
+.shop h3 {
+  font-size: 0.16rem;
+  line-height: 0.16rem;
+  padding-top: 0.15rem;
+  height: 0.53rem;
+}
+.shop .shijian {
+  font-size: 0.12rem;
+  line-height: 0.14rem;
+  color: #999;
+  position: relative;
+  padding-left: 0.17rem;
+}
+.shop .shijian::before {
+  content: '';
+  width: 0.14rem;
+  height: 0.14rem;
+  background-size: cover;
+  background-image: url(../img/shijian@2x.png);
+  left: 0;
+  top: 0.01rem;
+  position: absolute;
+}
 .isSelect {
   padding-left: 1.33rem;
 }
@@ -215,47 +238,6 @@ ul {
   position: absolute;
   right: 0;
   top: 0;
-}
-.address {
-  background-color: #fff;
-  padding: 0.14rem 0.2rem;
-  margin-top: -0.1rem;
-}
-.address h4 {
-  font-weight: normal;
-  margin-bottom: 0.06rem;
-}
-.address h4 span {
-  font-size: 0.17rem;
-  line-height: 0.2rem;
-  color: #333;
-  margin-right: 0.1rem;
-}
-.address h4 p {
-  font-size: 0.12rem;
-  color: #999;
-  display: inline;
-}
-.address .text {
-  padding-left: 0.17rem;
-  color: #999;
-  position: relative;
-}
-.address .text::before {
-  content: '';
-  position: absolute;
-  width: 0.2rem;
-  height: 0.2rem;
-  background-image: url(../img/dingwei-yellow.png);
-  background-size: cover;
-  left: -0.04rem;
-  top: -0.01rem;
-}
-.address .text h5,
-.address .text h6 {
-  font-weight: normal;
-  font-size: 0.14rem;
-  line-height: 0.18rem;
 }
 .fapiao {
   height: 0.58rem;

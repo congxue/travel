@@ -184,6 +184,31 @@ ul{
         border-radius: .05rem;
     }
 }
+.shop{
+    h3{
+        font-size: .16rem;
+        line-height: .16rem;
+        padding-top: .15rem;
+        height: .53rem;
+    }
+    .shijian{
+        font-size: .12rem;
+        line-height: .14rem;
+        color: #999;
+        position: relative;
+        padding-left: .17rem;
+        &::before{
+            content: '';
+            width: .14rem;
+            height: .14rem;
+            background-size: cover;
+            background-image: url(../img/shijian@2x.png);
+            left: 0;
+            top: .01rem;
+            position: absolute;
+        }
+    }
+}
 .isSelect{
     padding-left: 1.33rem;
     .img{
@@ -219,46 +244,6 @@ ul{
         position: absolute;
         right: 0;
         top:0;
-    }
-}
-.address{
-    background-color: #fff;
-    padding: .14rem .2rem;
-    margin-top: -0.1rem;
-    h4{
-        font-weight: normal;
-        margin-bottom: .06rem;
-        span{
-            font-size: .17rem;
-            line-height: .2rem;
-            color: #333;
-            margin-right: .1rem;
-        }
-        p{
-            font-size: .12rem;
-            color: #999;
-            display: inline;
-        }
-    }
-    .text{
-        padding-left: .17rem;
-        color: #999;
-        position: relative;
-        &::before{
-            content: '';
-            position: absolute;
-            width: .2rem;
-            height: .2rem;
-            background-image: url(../img/dingwei-yellow.png);
-            background-size: cover;
-            left: -0.04rem;
-            top:-0.01rem;
-        }
-        h5,h6{
-            font-weight: normal;
-            font-size: .14rem;
-            line-height: .18rem;
-        }
     }
 }
 .fapiao{

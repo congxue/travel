@@ -22,8 +22,6 @@ body{
     top:-0.2rem;
     z-index: 1;
     overflow: hidden;
-}
-.con,.order-details{
     border-top-left-radius:0.1rem;
     border-top-right-radius:0.1rem;
 }
@@ -75,6 +73,7 @@ body{
     padding: 0 .19rem 0 .19rem;
     background-color: #fff;
     margin-bottom: .1rem;
+    border-radius: 0.1rem;
     h2{
         font-size: .16rem;
         color: #333;
@@ -112,4 +111,28 @@ body{
         margin-top: .16rem;
         margin-bottom: .16rem;
     }
+}
+
+.address{
+    margin-top: .1rem;
+}
+.get{
+    line-height: .5rem;
+    height: .5rem;
+    color: #fff;
+    font-size: .16rem;
+    text-align: center;
+    background-color: #FC3728;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.order-details{
+    margin-top: .1rem;
+}
+.address,.order-details{
+    border-radius: 0;
+    border-bottom-left-radius:0.1rem;
+    border-bottom-right-radius:0.1rem;
 }

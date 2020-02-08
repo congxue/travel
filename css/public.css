@@ -509,3 +509,44 @@
   height: 100%;
   overflow: hidden;
 }
+.address {
+  background-color: #fff;
+  padding: 0.14rem 0.2rem;
+  margin-top: -0.1rem;
+}
+.address h4 {
+  font-weight: normal;
+  margin-bottom: 0.06rem;
+}
+.address h4 span {
+  font-size: 0.17rem;
+  line-height: 0.2rem;
+  color: #333;
+  margin-right: 0.1rem;
+}
+.address h4 p {
+  font-size: 0.12rem;
+  color: #999;
+  display: inline;
+}
+.address .text {
+  padding-left: 0.17rem;
+  color: #999;
+  position: relative;
+}
+.address .text::before {
+  content: '';
+  position: absolute;
+  width: 0.2rem;
+  height: 0.2rem;
+  background-image: url(../img/dingwei-yellow.png);
+  background-size: cover;
+  left: -0.04rem;
+  top: -0.01rem;
+}
+.address .text h5,
+.address .text h6 {
+  font-weight: normal;
+  font-size: 0.14rem;
+  line-height: 0.18rem;
+}

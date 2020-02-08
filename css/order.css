@@ -22,9 +22,6 @@ body {
   top: -0.2rem;
   z-index: 1;
   overflow: hidden;
-}
-.con,
-.order-details {
   border-top-left-radius: 0.1rem;
   border-top-right-radius: 0.1rem;
 }
@@ -75,6 +72,7 @@ body {
   padding: 0 0.19rem 0 0.19rem;
   background-color: #fff;
   margin-bottom: 0.1rem;
+  border-radius: 0.1rem;
 }
 .order-details h2 {
   font-size: 0.16rem;
@@ -112,4 +110,28 @@ body {
   padding: 0.13rem 0.16rem;
   margin-top: 0.16rem;
   margin-bottom: 0.16rem;
+}
+.address {
+  margin-top: 0.1rem;
+}
+.get {
+  line-height: 0.5rem;
+  height: 0.5rem;
+  color: #fff;
+  font-size: 0.16rem;
+  text-align: center;
+  background-color: #FC3728;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.order-details {
+  margin-top: 0.1rem;
+}
+.address,
+.order-details {
+  border-radius: 0;
+  border-bottom-left-radius: 0.1rem;
+  border-bottom-right-radius: 0.1rem;
 }

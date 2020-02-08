@@ -518,3 +518,43 @@
     height: 100%;
     overflow: hidden;
 }
+.address{
+    background-color: #fff;
+    padding: .14rem .2rem;
+    margin-top: -0.1rem;
+    h4{
+        font-weight: normal;
+        margin-bottom: .06rem;
+        span{
+            font-size: .17rem;
+            line-height: .2rem;
+            color: #333;
+            margin-right: .1rem;
+        }
+        p{
+            font-size: .12rem;
+            color: #999;
+            display: inline;
+        }
+    }
+    .text{
+        padding-left: .17rem;
+        color: #999;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            width: .2rem;
+            height: .2rem;
+            background-image: url(../img/dingwei-yellow.png);
+            background-size: cover;
+            left: -0.04rem;
+            top:-0.01rem;
+        }
+        h5,h6{
+            font-weight: normal;
+            font-size: .14rem;
+            line-height: .18rem;
+        }
+    }
+}
